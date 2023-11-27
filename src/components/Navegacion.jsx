@@ -17,13 +17,13 @@ export default function Navegacion() {
         <p>Instrumentos</p>
       </Link>
       <Link
-        href="/Reparaciones"
+        href="/reparaciones"
         className="flex justify-center p-4 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
       >
         <p>Reparación</p>
       </Link>
       <Link
-        href="/nosotros"
+        href="/acerca-de"
         className="flex justify-center p-4 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
       >
         <p>Acerca de</p>

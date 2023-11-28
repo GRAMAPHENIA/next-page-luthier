@@ -1,3 +1,8 @@
+
+export const metadata = {
+  title: "Reparaciones",
+};
+
 export default function Reparaciones() {
   return (
     <>

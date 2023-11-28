@@ -30,6 +30,7 @@ export default function Galeria() {
               alt="Imagen de la guitarra buconero"
               width="auto"
               height="auto"
+              className=""
             />
           </figure>
 

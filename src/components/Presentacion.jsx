@@ -5,10 +5,10 @@ export default function Presentacion() {
   return (
     <>
       <Image
-        className="mt-4 ml-4"
+        className="mt-4 ml-4 -rotate-[22deg]"
         src={Logo}
         alt="Logo de dicorato luthier"
-        height="200"
+        height="150"
         width="auto"
       />
       <h1 className="text-3xl text-white sm:text-4xl lg:text-6xl p-10">

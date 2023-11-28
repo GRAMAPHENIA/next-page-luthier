@@ -1,5 +1,5 @@
-import AsideBuconero from "@/components/AsideBuconero";
-import PresentacionBuconero from "@/components/PresentacionBuconero";
+import image from "next/image";
+import Link from "next/link";
 
 export default function BodyBuconero() {
   return (

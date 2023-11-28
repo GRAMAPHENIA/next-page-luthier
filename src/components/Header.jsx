@@ -1,4 +1,6 @@
 import Image from "next/image";
+
+import Modal from "@/components/Modal.jsx";
 // import Link from "next/Link";
 
 import Pua from "@/public/pua.svg";
@@ -19,15 +21,8 @@ export default function Header() {
           height={40}
         />
       </figure>
-      <figure className="flex justify-end col-start-4 col-end-5">
-        <Image
-          className="text-center p-2 border-2 border-[#20262b] rounded-full hover:bg-[#20262b]"
-          src={Pua}
-          alt="imagen de menu"
-          width="auto"
-          height="auto"
-        />
-      </figure>
+
+      <Modal />
     </header>
   );
 }

@@ -18,9 +18,12 @@ export default function Galeria() {
         <Navegacion />
       </section>
 
-      <section className="seccion-galeria">
+      <section className="seccion-galeria mt-20">
         <section className="grid my-2 grid-cols-1 lg:grid lg:grid-cols-2 gap-2">
-          <figure className="relative bg-[#14181b] rounded-2xl col-span-2">
+          <figure className="relative  rounded-2xl col-span-1">
+            <h1 className="text-center">Fotografías</h1>
+          </figure>
+          <figure className="relative bg-[#14181b] rounded-2xl col-span-1">
             <Image
               priority={true}
               src={BuconeroGaleria}
@@ -28,15 +31,9 @@ export default function Galeria() {
               width="auto"
               height="auto"
             />
-            <Link
-              href="/instrumentos/buconero"
-              className="absolute bottom-2 right-2 lg:bottom-10 lg:right-10 detalles text-base lg:text-xl text-center w-[100px] lg:w-[200px] px-0 py-1 lg:px-4 lg:py-3 ml-8 border-4 border-[#393c40]/70 hover:border-[#393c40]/95 bg-[#171c1f]/90 hover:bg-[#171c1f]/95 text-gray-400  hover:text-amber-100 rounded-full"
-            >
-              detalles
-            </Link>
           </figure>
 
-          <figure className="relative bg-[#14181b] rounded-2xl col-span-2">
+          <figure className="relative bg-[#14181b] rounded-2xl col-span-1">
             <Image
               src={VellutoGaleria}
               alt="Imagen de la guitarra velluto"
@@ -44,15 +41,9 @@ export default function Galeria() {
               height="auto"
               priority={true}
             />
-            <Link
-              href="/instrumentos/velluto"
-              className="absolute bottom-2 right-2 lg:bottom-10 lg:right-10 detalles text-base lg:text-xl text-center w-[100px] lg:w-[200px] px-0 py-1 lg:px-4 lg:py-3 ml-8 border-4 border-[#393c40]/70 hover:border-[#393c40]/95 bg-[#171c1f]/90 hover:bg-[#171c1f]/95 text-gray-400  hover:text-amber-100 rounded-full"
-            >
-              detalles
-            </Link>
           </figure>
 
-          <figure className="relative bg-[#14181b] rounded-2xl col-span-2">
+          <figure className="relative bg-[#14181b] rounded-2xl col-span-1">
             <Image
               src={EiraGaleria}
               alt="Imagen de la guitarra eira"
@@ -60,12 +51,6 @@ export default function Galeria() {
               height="auto"
               priority={true}
             />
-            <Link
-              href="/instrumentos/eira"
-              className="absolute bottom-2 right-2 lg:bottom-10 lg:right-10 detalles text-base lg:text-xl text-center w-[100px] lg:w-[200px] px-0 py-1 lg:px-4 lg:py-3 ml-8 border-4 border-[#393c40]/70 hover:border-[#393c40]/95 bg-[#171c1f]/90 hover:bg-[#171c1f]/95 text-gray-400  hover:text-amber-100 rounded-full"
-            >
-              detalles
-            </Link>
           </figure>
         </section>
       </section>

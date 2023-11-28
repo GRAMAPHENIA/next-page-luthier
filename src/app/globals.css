@@ -8,6 +8,7 @@
   --hover-button: #20262b;
   --light: white;
   --primary: #14181b;
+  --secondary: #1c1f22;
 }
 
 body {
@@ -44,11 +45,12 @@ h1 {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #101112d8;
+  background-color: #101112c9;
   display: none;
   justify-content: center;
   align-items: center;
   z-index: 100;
+  backdrop-filter: blur(10px);
 }
 #btn-modal:checked ~ .container-modal {
   display: flex;
@@ -56,9 +58,10 @@ h1 {
 .content-modal {
   width: 100%;
   max-width: 400px;
-  padding: 20px;
+  padding: 80px;
   background-color: var(--primary);
   color: #fff;
+  border: 2px solid var(--secondary);
   border-radius: 4px;
   box-shadow: 6px 6px #20262b;
 }

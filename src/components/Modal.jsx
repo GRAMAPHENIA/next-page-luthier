@@ -21,7 +21,12 @@ export default function Modal() {
 
       <div class="container-modal">
         <div class="content-modal">
-          <h2 className="text-center pb-10">¡Bienvenido! a la Navegación</h2>
+          <h2 className="text-center text-amber-200 pb-10">
+            <span className="text-4xl flex justify-center mb-5 text-gray-300">
+              ¡Bienvenidos!
+            </span>{" "}
+            El Menú
+          </h2>
 
           {/* NAVEGACION */}
           <NavegacionMenu />

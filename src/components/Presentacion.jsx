@@ -10,6 +10,7 @@ export default function Presentacion() {
         alt="Logo de dicorato luthier"
         height="150"
         width="auto"
+        priority={true}
       />
       <h1 className="text-3xl text-white sm:text-4xl lg:text-6xl p-10">
         recursos nativos,

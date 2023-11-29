@@ -18,6 +18,7 @@ export default function Header() {
           alt="Logo de la marca con el apellido solamente"
           width="auto"
           height={40}
+          priority={true}
         />
       </figure>
 

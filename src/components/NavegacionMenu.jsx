@@ -13,7 +13,8 @@ export default function NavegacionMenu() {
           src={Logo}
           alt="imagen del logo de la empresa"
           width="200"
-          height="200"
+          height="auto"
+          priority={true}
         />
         <ul>
           <li>

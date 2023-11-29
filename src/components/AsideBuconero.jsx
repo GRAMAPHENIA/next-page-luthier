@@ -10,6 +10,7 @@ export default function AsideBuconero() {
           height="auto"
           src={croquiBuconero}
           alt="Foto de la guitarra Buconero"
+          priority={true}
         />
       </figure>
     </aside>

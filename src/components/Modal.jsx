@@ -6,25 +6,25 @@ export default function Modal() {
   return (
     <>
       <figure className="flex justify-end col-start-4 col-end-5">
-        <label for="btn-modal">
+        <label htmlFor="btn-modal">
           <Image
             className="text-center p-2 border-2 border-[#20262b] rounded-full hover:bg-[#20262b] cursor-pointer"
             src={Pua}
             alt="imagen de menu"
             width="auto"
             height="auto"
+            priority={true}
           />
         </label>
       </figure>
 
       <input type="checkbox" id="btn-modal" />
 
-      <div class="container-modal">
-        <div class="content-modal">
-          
+      <div className="container-modal">
+        <div className="content-modal">
           <NavegacionMenu />
         </div>
-        <label for="btn-modal" class="cerrar-modal"></label>
+        <label htmlFor="btn-modal" className="cerrar-modal"></label>
       </div>
     </>
   );

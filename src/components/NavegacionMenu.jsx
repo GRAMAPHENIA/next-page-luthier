@@ -8,13 +8,13 @@ export default function NavegacionMenu() {
   return (
     <section className="grid-cols-1 w-full gap-2 flex justify-center text-center">
       <nav>
-      <Image
-      className="mb-10"
-            src={Logo}
-            alt="imagen del logo de la empresa"
-            width="200"
-            height="200"
-          />
+        <Image
+          className="mb-10"
+          src={Logo}
+          alt="imagen del logo de la empresa"
+          width="200"
+          height="200"
+        />
         <ul>
           <li>
             <NavLink

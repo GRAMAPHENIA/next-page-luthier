@@ -27,7 +27,6 @@ body {
   max-width: calc(100% - 2rem);
   line-height: 1.6;
   overflow-y: scroll;
-  
 }
 
 h1 {
@@ -118,3 +117,16 @@ h1 {
 }
 
 /*:::Fin Ventana Modal:::*/
+
+/*:::Scroll:::*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--dark);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--hover-button);
+  border-radius: 5px;
+}
+/*:::Scroll:::*/

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "/public/croquis/croquis-buconero-numerado.png";
+import CroquisBuconero from "/public/croquis/croquis-buconero-numerado.png";
 
 export const metadata = {
   title: "Modelo Buconero",
@@ -12,8 +12,8 @@ export default function Buconero() {
         <figure className="relative bg-[#14181b] rounded-2xl col-span-4 p-10 lg:p-10">
           1
           <Image
-            src={Logo}
-            alt="Logo del taller de Lutheria de Esteban M. Di corato."
+            src={CroquisBuconero}
+            alt="croquis buconero numerado"
             width={1000}
             height="auto"
           />

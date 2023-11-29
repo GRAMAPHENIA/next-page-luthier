@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function BodyBuconero() {
   return (
-    <section className="w-full grid lg:grid-cols-4 my-2 gap-2">
+    <section className="w-full grid lg:grid-cols-4 my-2 gap-2" id="contactos">
       <figure className="flex flex-col align-middle justify-center p-4 lg:col-start-1 lg:col-end-4 bg-[#14181b] rounded-2xl w-full">
         <h1>B</h1>
       </figure>

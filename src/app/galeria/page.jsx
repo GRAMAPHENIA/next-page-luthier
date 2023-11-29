@@ -20,9 +20,9 @@ export default function Galeria() {
 
       <section className="seccion-galeria mt-20">
         <section className="grid my-2 grid-cols-1 lg:grid lg:grid-cols-2 gap-2">
-          <figure className="relative  rounded-2xl col-span-1">
+          {/* <figure className="relative  rounded-2xl col-span-1">
             <h1 className="text-center">Fotografías</h1>
-          </figure>
+          </figure> */}
           <figure className="relative bg-[#14181b] rounded-2xl col-span-1">
             <Image
               priority={true}

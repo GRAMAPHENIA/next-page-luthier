@@ -35,7 +35,7 @@ export default function Navegacion() {
         <p>Taller</p>
       </Link>
       <Link
-        href="/contactos"
+        href="#contactos"
         className="flex justify-center p-4 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
       >
         <p>Contactos</p>

@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 import Modal from "@/components/Modal.jsx";
-// import Link from "next/Link";
 
 import Pua from "@/public/pua.svg";
 import Instagram from "@/public/instagram.svg";

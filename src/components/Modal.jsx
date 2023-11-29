@@ -8,7 +8,7 @@ export default function Modal() {
       <figure className="flex justify-end col-start-4 col-end-5">
         <label for="btn-modal">
           <Image
-            className="text-center p-2 border-2 border-[#20262b] rounded-full hover:bg-[#20262b]"
+            className="text-center p-2 border-2 border-[#20262b] rounded-full hover:bg-[#20262b] cursor-pointer"
             src={Pua}
             alt="imagen de menu"
             width="auto"

@@ -16,11 +16,11 @@ export default function Buconero() {
         <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
           <p>Modelo Buconero</p>
         </figure>
-        <figure  className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
           <Image
             priority={true}
             src={BuconeroHorz}
-            alt="Logo de dicorato luthier"
+            alt="Fotografía de una guitarra, modelo Buconero. Diseñada y fabricada por Esteban M. Di corato."
             width="auto"
             height="auto"
           />
@@ -37,7 +37,7 @@ export default function Buconero() {
         <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
           <Image
             src={VellutoHorz}
-            alt="Logo de dicorato luthier"
+            alt="Fotografía de una guitarra, modelo Velluto. Diseñada y fabricada por Esteban M. Di corato."
             width="auto"
             height="auto"
             priority={true}
@@ -55,7 +55,7 @@ export default function Buconero() {
         <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
           <Image
             src={EiraHorz}
-            alt="Logo de dicorato luthier"
+            alt="Fotografía de una guitarra, modelo Eira. Diseñada y fabricada por Esteban M. Di corato."
             width="auto"
             height="auto"
             priority={true}

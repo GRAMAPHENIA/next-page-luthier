@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Pua from "@/public/pua.svg";
+import Menu from "@/public/menu.svg";
 import NavegacionMenu from "@/components/NavegacionMenu.jsx";
 
 export default function Modal() {
@@ -9,7 +9,7 @@ export default function Modal() {
         <label htmlFor="btn-modal">
           <Image
             className="text-center p-2 border-2 border-[#20262b] rounded-full hover:bg-[#20262b] cursor-pointer"
-            src={Pua}
+            src={Menu}
             alt="imagen de menu"
             width="auto"
             height="auto"

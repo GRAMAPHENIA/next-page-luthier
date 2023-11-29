@@ -21,7 +21,6 @@ export default function Header() {
           priority={true}
         />
       </figure>
-
       <Modal />
     </header>
   );

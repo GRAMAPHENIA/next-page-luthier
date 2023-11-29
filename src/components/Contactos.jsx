@@ -6,6 +6,7 @@ import Facebook from "@/public/facebook.svg";
 import Youtube from "@/public/youtube.svg";
 import Wsap from "@/public/wsap.svg";
 import Email from "@/public/email.svg";
+import Pua from "@/public/pua.svg";
 
 export default function BodyBuconero() {
   return (
@@ -15,31 +16,37 @@ export default function BodyBuconero() {
           href="/"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
         >
-          <Image src={Instagram}></Image>
+          <Image src={Instagram} alt="Icono de la red social Instagram"></Image>
         </Link>
         <Link
           href="/"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
         >
-          <Image src={Facebook}></Image>
+          <Image src={Facebook} alt="Icono de la red social Facebook"></Image>
         </Link>
         <Link
           href="/"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
         >
-          <Image src={Youtube}></Image>
+          <Image src={Youtube} alt="Icono de la red social Youtube"></Image>
         </Link>
         <Link
           href="/"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
         >
-          <Image src={Wsap}></Image>
+          <Image src={Wsap} alt="Icono de la red social Whatsapp"></Image>
         </Link>
         <Link
           href="/"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
         >
-          <Image src={Email}></Image>
+          <Image src={Email} alt="Icono del Email"></Image>
+        </Link>
+        <Link
+          href="/"
+          className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
+        >
+          <Image src={Pua} alt="Icono del Email"></Image>
         </Link>
       </section>
       <section className="w-full grid lg:grid-cols-4 my-2 gap-2" id="contactos">

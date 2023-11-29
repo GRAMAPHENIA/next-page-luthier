@@ -9,6 +9,7 @@
   --light: white;
   --primary: #14181b;
   --secondary: #1c1f22;
+  --text-light: #838c94;
 }
 html {
   scroll-behavior: smooth;
@@ -66,11 +67,12 @@ h1 {
   max-width: 620px;
   padding: 40px;
   background-color: var(--primary);
-  color: #fff;
+  color: var(--text-light);
   border: 2px solid var(--secondary);
   border-radius: 4px;
   box-shadow: 6px 6px #20262b;
 }
+
 .content-modal h2 {
   margin-bottom: 15px;
 }

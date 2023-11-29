@@ -21,19 +21,8 @@ export default function Modal() {
 
       <div class="container-modal">
         <div class="content-modal">
-          <h2 className="text-center text-4xl text-amber-200 pb-10">
-            <span className="text-6xl flex justify-center mb-5 text-gray-300">
-              ¡Bienvenidos!
-            </span>{" "}
-            El Menú
-          </h2>
-
-          {/* NAVEGACION */}
+          
           <NavegacionMenu />
-
-          {/* <div class="btn-cerrar pt-10">
-            <label for="btn-modal">Cerrar</label>
-          </div> */}
         </div>
         <label for="btn-modal" class="cerrar-modal"></label>
       </div>

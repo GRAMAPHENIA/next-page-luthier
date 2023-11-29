@@ -14,10 +14,6 @@ export const metadata = {
 export default function Galeria() {
   return (
     <>
-      <section className="mt-2">
-        <Navegacion />
-      </section>
-
       <section className="seccion-galeria mt-20">
         <section className="grid my-2 grid-cols-1 lg:grid lg:grid-cols-2 gap-2">
           {/* <figure className="relative  rounded-2xl col-span-1">

@@ -16,9 +16,9 @@ export const metadata = {
 export default function Galeria() {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 relative rounded-2xl overflow-hidden bg-[var(--dark)] mt-10 py-4 px-6 border border-white/5">
+      <div className="grid grid-cols-1 md:grid-cols-2 relative rounded-2xl overflow-hidden bg-[var(--primary)] mt-10 py-4 px-6">
         <div className="relative rounded-xl overflow-auto px-0 my-4">
-          <div className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center bg-[var(--primary)] hover:bg-[var(--hover-button)] cursor-pointer border border-white/10">
+          <div className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center bg-[var(--dark)] hover:bg-[var(--secondary)] cursor-pointer border border-white/10">
             <Image
               className="absolute -left-6 w-24 h-24 rounded-full shadow-lg border-4 border-white/10"
               src={Imperatrice}
@@ -35,7 +35,7 @@ export default function Galeria() {
         </div>
 
         <div className="relative rounded-xl overflow-auto px-0 my-4 ">
-          <div className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center bg-[var(--primary)] hover:bg-[var(--hover-button)] cursor-pointer border border-white/10">
+          <div className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center bg-[var(--dark)] hover:bg-[var(--secondary)] cursor-pointer border border-white/10">
             <Image
               className="absolute -left-6 w-24 h-24 rounded-full shadow-lg border-4 border-white/10"
               src={BuconeroStandart}
@@ -52,7 +52,7 @@ export default function Galeria() {
         </div>
 
         <div className="relative rounded-xl overflow-auto px-0 my-4 ">
-          <div className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center bg-[var(--primary)] hover:bg-[var(--hover-button)] cursor-pointer border border-white/10">
+          <div className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center bg-[var(--dark)] hover:bg-[var(--secondary)] cursor-pointer border border-white/10">
             <Image
               className="absolute -left-6 w-24 h-24 rounded-full shadow-lg border-4 border-white/10"
               src={EiraStandart}
@@ -69,7 +69,7 @@ export default function Galeria() {
         </div>
 
         <div className="relative rounded-xl overflow-auto px-0 my-4 ">
-          <div className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center bg-[var(--primary)] hover:bg-[var(--hover-button)] cursor-pointer border border-white/10">
+          <div className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center bg-[var(--dark)] hover:bg-[var(--secondary)] cursor-pointer border border-white/10">
             <Image
               className="absolute -left-6 w-24 h-24 rounded-full shadow-lg border-4 border-white/10"
               src={VellutoStandart}
@@ -86,7 +86,23 @@ export default function Galeria() {
         </div>
 
         <div className="relative rounded-xl overflow-auto px-0 my-4 ">
-          <div className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center bg-[var(--primary)] hover:bg-[var(--hover-button)] cursor-pointer border border-white/10">
+          <div className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center bg-[var(--dark)] hover:bg-[var(--secondary)] cursor-pointer border border-white/10">
+            <Image
+              className="absolute -left-6 w-24 h-24 rounded-full shadow-lg border-4 border-white/10"
+              src={Es35Nativa}
+            ></Image>
+            <div className="flex flex-col py-5 pl-24">
+              <strong className="text-sm font-medium dark:text-slate-200">
+              Es35 Nativa
+              </strong>
+              <span className="text-sm font-medium dark:text-slate-400">
+                Someone
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="relative rounded-xl overflow-auto px-0 my-4 ">
+          <div className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center bg-[var(--dark)] hover:bg-[var(--secondary)] cursor-pointer border border-white/10">
             <Image
               className="absolute -left-6 w-24 h-24 rounded-full shadow-lg border-4 border-white/10"
               src={Es35Nativa}

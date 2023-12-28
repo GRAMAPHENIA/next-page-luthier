@@ -10,6 +10,7 @@
   --primary: #14181b;
   --secondary: #1c1f22;
   --text-light: #838c94;
+  --border-light: #3b4c5a;
 }
 html {
   scroll-behavior: smooth;

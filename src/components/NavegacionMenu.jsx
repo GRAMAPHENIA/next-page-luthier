@@ -28,6 +28,13 @@ export default function NavegacionMenu() {
           <li>
             <NavLink
               activeClasses="flex justify-center text-amber-100 px-4 py-2 bg-[#171c1f] rounded-full"
+              text="Galeria"
+              href="/galeria"
+            />
+          </li>
+          <li>
+            <NavLink
+              activeClasses="flex justify-center text-amber-100 px-4 py-2 bg-[#171c1f] rounded-full"
               text="Instrumentos"
               href="/instrumentos"
             />

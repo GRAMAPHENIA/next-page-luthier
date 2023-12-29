@@ -21,7 +21,7 @@ export default function Galeria() {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 relative rounded-2xl overflow-hidden bg-[var(--primary)] mt-10 py-4 px-6">
         <div className="relative rounded-xl overflow-auto px-0 my-4">
-          <div className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center bg-[var(--dark)] hover:bg-[var(--secondary)] cursor-pointer border border-white/10">
+          <div className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5  rounded-xl flex items-center bg-[var(--dark)] hover:bg-[var(--secondary)] cursor-pointer border border-white/10">
             <Image
               className="absolute -left-6 w-24 h-24 rounded-full shadow-lg border-4 border-[--border-light]"
               src={Imperatrice}

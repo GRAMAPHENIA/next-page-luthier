@@ -9,9 +9,7 @@ export default function Page() {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 relative rounded-2xl overflow-hidden bg-[var(--primary)] my-10 py-4 px-6">
         {data.map((guitar) => (
-          <GuitarItem
-            guitar={guitar}
-          />
+          <GuitarItem key={guitar.id} guitar={guitar} />
         ))}
       </div>
     </>

@@ -12,7 +12,7 @@ export default function Presentacion() {
         width="auto"
         priority={true}
       />
-      <h1 className="text-3xl text-white sm:text-4xl lg:text-6xl p-10">
+      <h1 className="text-3xl font-light font-sans text-[#7d8c9d] mb-5 sm:text-2xl lg:text-7xl p-6 lg:p-10">
         recursos nativos,
         <br />
         el cuidado del medio ambiente,

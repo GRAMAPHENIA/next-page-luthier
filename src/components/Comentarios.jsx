@@ -43,23 +43,23 @@ const Comentarios = () => {
   return (
     <>
       <section
-        className="w-full grid lg:grid-cols-4 my-2 gap-2 "
+        className="w-full grid lg:grid-cols-4 gap-2 "
         id="contactos"
       >
-        <figure className="flex flex-col align-middle justify-center p-4 lg:col-start-1 lg:col-end-4 bg-[#14181b] rounded-2xl w-full">
-          <h1 className="text-center font-extralight text-[#7d8c9d] mb-4">
+        <figure className="flex flex-col align-middle justify-center  lg:col-start-1 lg:col-end-3 bg-[#14181b] rounded-full w-full">
+          <span className="text-center text-xl font-extralight text-[#7d8c9d]">
             comentarios
-          </h1>
+          </span>
         </figure>
-        <aside className="flex flex-col align-middle justify-center p-4 lg:col-start-4 lg:col-end-5 bg-[#14181b] rounded-2xl w-full">
-            <Image
-              width={80}
-              height={80}
-              src={User}
-              alt="User"
-              priority={true}
-              className="mx-auto my-auto"
-            ></Image>
+        <aside className="flex flex-col align-middle justify-center lg:col-start-3 lg:col-end-5 bg-[#14181b] rounded-full w-full">
+          <Image
+            width={60}
+            height={60}
+            src={User}
+            alt="User"
+            priority={true}
+            className="mx-auto my-auto p-2"
+          ></Image>
         </aside>
       </section>
       <section className="w-full my-2 gap-2" id="comentarios">

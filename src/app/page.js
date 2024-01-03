@@ -12,8 +12,8 @@ export default function Home() {
       <Header />
       <Body />
       <Galeria />
-      <Contactos />
       <Comentarios />
+      <Contactos />
     </main>
   );
 }

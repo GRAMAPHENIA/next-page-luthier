@@ -17,9 +17,7 @@ export default function Presentacion() {
         <br />
         el cuidado del medio ambiente,
         <br />
-        <span className="text-[#7d8c9d]">
-          selección de maderas recuperadas
-        </span>
+        <span className="text-[#7d8c9d]">selección de maderas recuperadas</span>
         .
       </h1>
     </>

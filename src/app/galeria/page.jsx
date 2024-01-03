@@ -4,6 +4,10 @@ import data from "../../data/data.json";
 
 import Image from "next/image";
 
+export const metadata = {
+  title: "Galeria de fotos",
+};
+
 export default function Page() {
   return (
     <>

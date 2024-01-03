@@ -4,59 +4,44 @@ import Testimonios from "../components/Testimonios";
 const Comentarios = () => {
   const testimoniosData = [
     {
-      comment: "Estoy encantado con el producto, ¡es increíble!",
-      author: "Juan Pérez",
-      company: "Cliente Feliz S.A.",
-      img: "/miniaturas/eira-standart.png"
+      comment:
+        "Gran profesional, dispuesto y dedicado al trabajo. Llevé 2 instrumentos para calibración y reparación y realizó un trabajo espectacular.",
+      author: "Renzo Di Lorenzo",
+      img: "/miniaturas/comentarios/dilorenzo.png",
+    },
+    {
+      comment: "Un lujoooo, sigan asi.",
+      author: "Martin Cioffi",
+      img: "/miniaturas/comentarios/martin_cioffi.png",
+    },
+    {
+      comment: "Excelente servicio!!!",
+      author: "Juan L.",
+      img: "/miniaturas/comentarios/juanl.png",
+    },
+    {
+      comment: "Zarpado lugar.",
+      author: "Franco Fuentes",
+      img: "/miniaturas/comentarios/francofuentes.png",
     },
     {
       comment:
-        "El servicio al cliente fue excepcional. Recomiendo esta tienda.",
-      author: "María Gómez",
-      company: "Experiencias Positivas Ltd.",
-      img: "/miniaturas/eira-standart.png"
+        "Super recomendable, buena predisposición, la mejor onda, un grande Esteban!",
+      author: "Emiliano Foglia",
+      img: "/miniaturas/comentarios/emilianofoglia.png",
     },
     {
-      comment:
-        "El servicio al cliente fue excepcional. Recomiendo esta tienda.",
-      author: "María Gómez",
-      company: "Experiencias Positivas Ltd.",
-      img: "/miniaturas/eira-standart.png"
-    },
-    {
-      comment:
-        "El servicio al cliente fue excepcional. Recomiendo esta tienda.",
-      author: "María Gómez",
-      company: "Experiencias Positivas Ltd.",
-      img: "/miniaturas/eira-standart.png"
-    },
-    {
-      comment:
-        "El servicio al cliente fue excepcional. Recomiendo esta tienda.",
-      author: "María Gómez",
-      company: "Experiencias Positivas Ltd.",
-      img: "/miniaturas/eira-standart.png"
-    },
-    {
-      comment:
-        "El servicio al cliente fue excepcional. Recomiendo esta tienda.",
-      author: "María Gómez",
-      company: "Experiencias Positivas Ltd.",
-      img: "/miniaturas/eira-standart.png"
+      comment: "Recomiendo.",
+      author: "Ezequiel Carpena",
+      img: "/miniaturas/comentarios/carpena.png",
     },
   ];
 
   return (
     <>
-      <section
-        className="w-full  my-2 gap-2"
-        id="comentarios"
-      >
-        <figure className="flex flex-col align-middle justify-center px-8 pb-8 bg-[#14181b] rounded-2xl w-full">
-          <div className="mx-auto font-light">
-            <h1 className="text-3xl text-white sm:text-4xl lg:text-6xl my-8 text-center">
-              CLIENTES
-            </h1>
+      <section className="w-full my-2 gap-2" id="comentarios">
+        <figure className="flex flex-col align-middle justify-center px-8 py-8 bg-[#14181b] rounded-2xl w-full">
+          <div className="mx-auto font-light text-amber-100">
             <Testimonios testimonio={testimoniosData} />
           </div>
         </figure>

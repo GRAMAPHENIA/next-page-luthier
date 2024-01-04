@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import ContactForm from "@/components/ContactForm";
+
 import Instagram from "@/public/instagram.svg";
 import Facebook from "@/public/facebook.svg";
 import Youtube from "@/public/youtube.svg";
@@ -51,11 +53,9 @@ export default function BodyBuconero() {
       </section>
       <section className="w-full grid lg:grid-cols-4 my-2 gap-2" id="contactos">
         <figure className="flex flex-col align-middle justify-center p-4 lg:col-start-1 lg:col-end-4 bg-[#14181b] rounded-2xl w-full">
-          <h1>B</h1>
+          <ContactForm />
         </figure>
-        <aside className="flex flex-col align-middle justify-center p-4 lg:col-start-4 lg:col-end-5 bg-[#14181b] rounded-2xl w-full">
-          <h1>A</h1>
-        </aside>
+        <aside className="flex flex-col align-middle justify-center p-4 lg:col-start-4 lg:col-end-5 bg-[#14181b] rounded-2xl w-full"></aside>
       </section>
     </>
   );

@@ -12,7 +12,7 @@ export default function PresentacionBuconero() {
 
       <section className="flex justify-start ">
         <Link
-          className="detalles text-xl text-slate-300 text-center w-[200px] px-4 py-3 ml-8 border-2 border-[#393c40]  hover:bg-[#171c1f] hover:text-amber-100 rounded-full gap-2 "
+          className="detalles text-xl text-slate-300 text-center w-[200px] px-4 py-3 ml-8 border-2 border-[#393c40] hover:bg-[#171c1f] hover:text-amber-100 rounded-full gap-2"
           href="/galeria"
         >
           ver galería

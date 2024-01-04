@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState } from "react";
 
@@ -21,10 +21,13 @@ const ContactForm = () => {
 
   return (
     <form className="max-w-md mx-auto mt-8" onSubmit={handleSubmit}>
-      <p className="text-lg font-semibold mb-4">Envie su consulta</p>
+      <p className="text-xl font-light mb-4">Envie su consulta</p>
 
       <div className="mb-4">
-        <label className="block text-[var(--text-light)] text-sm font-light mb-2" htmlFor="name">
+        <label
+          className="block text-[var(--text-light)] text-sm font-light mb-2"
+          htmlFor="name"
+        >
           Nombre:
         </label>
         <input
@@ -40,7 +43,10 @@ const ContactForm = () => {
 
       <div className="mb-4 flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:pr-2">
-          <label className="block text-[var(--text-light)] text-sm font-light mb-2" htmlFor="email">
+          <label
+            className="block text-[var(--text-light)] text-sm font-light mb-2"
+            htmlFor="email"
+          >
             Correo Electrónico:
           </label>
           <input
@@ -55,7 +61,10 @@ const ContactForm = () => {
         </div>
 
         <div className="w-full lg:w-1/2 lg:pl-2">
-          <label className="block text-[var(--text-light)] text-sm font-light mb-2" htmlFor="phone">
+          <label
+            className="block text-[var(--text-light)] text-sm font-light mb-2"
+            htmlFor="phone"
+          >
             Teléfono:
           </label>
           <input
@@ -70,7 +79,10 @@ const ContactForm = () => {
       </div>
 
       <div className="mb-4">
-        <label className="block text-[var(--text-light)] text-sm font-light mb-2" htmlFor="message">
+        <label
+          className="block text-[var(--text-light)] text-sm font-light mb-2"
+          htmlFor="message"
+        >
           Mensaje:
         </label>
         <textarea
@@ -87,7 +99,7 @@ const ContactForm = () => {
 
       <button
         type="submit"
-        className="text-xl text-slate-300 text-center w-[200px] px-4 py-3 border-2 border-[#393c40] hover:bg-[#171c1f] hover:text-amber-100 rounded-full gap-2"
+        className="text-xl text-slate-300 text-center w-[150px] py-1 border-2 border-[#393c40] hover:bg-[#171c1f] hover:text-amber-100 rounded-full gap-2"
       >
         Enviar
       </button>

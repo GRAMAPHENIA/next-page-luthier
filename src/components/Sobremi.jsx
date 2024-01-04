@@ -12,7 +12,7 @@ const Sobremi = () => {
             A mediados de la década de los 90 me surge la intriga de comenzar la
             construcción de guitarras y bajos, y capacitándome de varias maneras
             logro afianzarme en conocimientos y experiencia. Es así que en el
-            año 2010 decido crear "Di Corato instrumentos de cuerda pulsada.
+            año 2010 decido crear Di Corato instrumentos de cuerda pulsada.
           </p>
           <Image
             width={250}

@@ -8,16 +8,16 @@ const ContactForm = () => {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Lógica para enviar el formulario (puedes implementar aquí la llamada a la API, etc.)
-    console.log("Formulario enviado:", { name, email, phone, message });
-    // Puedes resetear los estados después de enviar el formulario si es necesario.
-    // setName('');
-    // setEmail('');
-    // setPhone('');
-    // setMessage('');
-  };
+  //   const handleSubmit = (e) => {
+  //     e.preventDefault();
+  //     // Lógica para enviar el formulario (puedes implementar aquí la llamada a la API, etc.)
+  //     console.log("Formulario enviado:", { name, email, phone, message });
+  //     // Puedes resetear los estados después de enviar el formulario si es necesario.
+  //     // setName('');
+  //     // setEmail('');
+  //     // setPhone('');
+  //     // setMessage('');
+  //   };
 
   return (
     <form className="max-w-md mx-auto mt-8" onSubmit={handleSubmit}>

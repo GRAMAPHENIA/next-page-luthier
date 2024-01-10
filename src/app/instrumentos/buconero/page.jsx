@@ -1,11 +1,56 @@
 import Image from "next/image";
-import CroquisBuconero from "@/public/svgs/buconero-detalles.svg";
+import CroquisBuconero from "@/public/croquis/guitarras-numeracion/buconero-horz.svg";
+import BuconeroCuerpo from "@/public/guitarras/buconero.png";
+import Gotoh from "@/public/svgs/marcas/gotoh.svg";
+import Hosco from "@/public/svgs/marcas/hosco.svg";
+import Diliberto from "@/public/svgs/marcas/diliberto.svg";
+import Wilkinson from "@/public/svgs/marcas/wilkinson.svg";
 
 export const metadata = {
   title: "Modelo Buconero",
 };
 
 export default function Buconero() {
+  const lista = [
+    {
+      descripcion: "Acabado poliuretano mate y brillante.",
+    },
+    {
+      descripcion: "Cuerpo de caroba en una pieza.",
+    },
+    {
+      descripcion: "24 trastes hosco 2.4 M.",
+    },
+    {
+      descripcion: "Clavijas Gotoh.",
+    },
+    {
+      descripcion: "Diapasón de ébano macasar, radio 20 .",
+    },
+    {
+      descripcion:
+        "Incrustación en traste 12 de ébano Gabón y resina fotoluminiscente.",
+    },
+    {
+      descripcion: "Mango laminado de jequetiva/ guatambú/viraro, perfil fino.",
+    },
+    {
+      descripcion: "Micrófonos Diliverto C9 special.",
+    },
+    {
+      descripcion: "Perillas en madera.",
+    },
+    {
+      descripcion: "Puente tremolo Wilkinson wvp.",
+    },
+    {
+      descripcion: "Tensor doble acción termosellado.",
+    },
+    {
+      descripcion: "Electrónica gotoh/swichcraft.",
+    },
+  ];
+
   return (
     <>
       <section className="grid my-2 grid-cols-4 row-span-4 lg:grid lg:grid-cols-8 gap-2 ">
@@ -17,77 +62,58 @@ export default function Buconero() {
             height="auto"
           />
         </figure>
-
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-4 p-10 lg:p-10">
-          <ol className="space-y-2">
-            <li>
-              <span className="text-amber-100">1.</span> Acabado poliuretano
-              mate y brillante.
-            </li>
-            <li>
-              <span className="text-amber-100">2.</span> Cuerpo de caroba en una
-              pieza.
-            </li>
-            <li>
-              <span className="text-amber-100">3.</span> 24 trastes hosco 2.4
-              M.
-            </li>
-            <li>
-              <span className="text-amber-100">6.</span> Clavijas Gotoh.
-            </li>
-            <li>
-              <span className="text-amber-100">4.</span> Diapasón de ébano
-              macasar, radio 20 .
-            </li>
-            <li>
-              <span className="text-amber-100">5.</span> Incrustación en traste
-              12 de ébano Gabón y resina fotoluminiscente.
-            </li>
-            <li>
-              <span className="text-amber-100">6.</span> Mango laminado de
-              jequetiva/ guatambú/viraro, perfil fino.
-            </li>
-            <li>
-              <span className="text-amber-100">7.</span> Micrófonos Diliverto C9
-              special.
-            </li>
-            <li>
-              <span className="text-amber-100">8.</span> Perillas en madera.
-            </li>
-            <li>
-              <span className="text-amber-100">9.</span> Puente tremolo
-              Wilkinson wvp.
-            </li>
-            <li>
-              <span className="text-amber-100">10.</span> Tapa de raíz de maple
-              y resina epoxi.
-            </li>
-            <li>
-              <span className="text-amber-100">11.</span> Tensor doble acción
-              termosellado.
-            </li>
-            <li>
-              <span className="text-amber-100">13.</span>
-            </li>
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-5 p-10 lg:p-10">
+          <ol className="space-y-2 ">
+            {lista.map((item, index) => (
+              <li key={index}>
+                <p className="text-[var(--text-light)]">
+                  <span className="text-amber-100 mr-4">{index + 1}.</span>
+                  {item.descripcion}
+                </p>
+              </li>
+            ))}
           </ol>
         </figure>
-
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-4 p-10 lg:p-10">
-          3
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-3 p-10 lg:p-10 ">
+          <Image
+            src={BuconeroCuerpo}
+            alt="croquis buconero numerado"
+            width={400}
+            height="auto"
+            className="mx-auto h-[400px] w-auto"
+          />
+        </figure>{" "}
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-5">
+          <Image
+            src={Diliberto}
+            alt="croquis buconero numerado"
+            width={1000}
+            height="auto"
+          />
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
-          4
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-5">
+          <Image
+            src={Gotoh}
+            alt="croquis buconero numerado"
+            width={1000}
+            height="auto"
+          />
         </figure>
-
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
-          5
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-5">
+          <Image
+            src={Hosco}
+            alt="croquis buconero numerado"
+            width={1000}
+            height="auto"
+          />
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
-          6
-        </figure>
-
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
-          7
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-5">
+          <Image
+            src={Wilkinson}
+            alt="croquis buconero numerado"
+            width={1000}
+            height="auto"
+          />
         </figure>
       </section>
     </>

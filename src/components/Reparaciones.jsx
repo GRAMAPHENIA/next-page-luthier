@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import LogoApellido from "/public/dicorato-logo-solo-apellido.svg";
+import LogoApellido from "/public/croquis/herramientas.svg";
 
 export default function Reparaciones() {
   return (
@@ -26,7 +26,7 @@ export default function Reparaciones() {
             src={LogoApellido}
             alt="Logo"
             priority={true}
-            className=" bg-[#14181b]"
+            className=" bg-[#14181b] my-10"
           ></Image>
         </aside>
       </section>

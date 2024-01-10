@@ -1,5 +1,6 @@
 import Image from "next/image";
-import CroquisBuconero from "@/public/croquis/guitarras-numeracion/buconero-horz.svg";
+import CroquisBuconeroVert from "@/public/croquis/guitarras-numeracion/buconero-vert.svg";
+import CroquisBuconeroHorz from "@/public/croquis/guitarras-numeracion/buconero-horz.svg";
 import BuconeroCuerpo from "@/public/guitarras/buconero.png";
 import Gotoh from "@/public/svgs/marcas/gotoh.svg";
 import Hosco from "@/public/svgs/marcas/hosco.svg";
@@ -56,14 +57,22 @@ export default function Buconero() {
       <section className="grid my-2 grid-cols-4 row-span-4 lg:grid lg:grid-cols-8 gap-2 ">
         <figure className="relative bg-[#14181b] rounded-2xl col-span-8 p-10 lg:p-10">
           <Image
-            src={CroquisBuconero}
+            src={CroquisBuconeroVert}
             alt="croquis buconero numerado"
-            width={1000}
+            width="auto"
             height="auto"
+            className="mx-auto h-[600px] lg:hidden"
+          />
+          <Image
+            src={CroquisBuconeroHorz}
+            alt="croquis buconero numerado"
+            width="auto"
+            height="auto"
+            className="hidden lg:block"
           />
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-5 p-10 lg:p-10">
-          <ol className="space-y-2 ">
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-5 p-10 lg:p-10">
+          <ol className="space-y-2">
             {lista.map((item, index) => (
               <li key={index}>
                 <p className="text-[var(--text-light)]">
@@ -74,44 +83,44 @@ export default function Buconero() {
             ))}
           </ol>
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-3 p-10 lg:p-10 ">
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-10 ">
           <Image
             src={BuconeroCuerpo}
             alt="croquis buconero numerado"
-            width={400}
+            width="auto"
             height="auto"
             className="mx-auto h-[400px] w-auto"
           />
-        </figure>{" "}
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-5">
+        </figure>
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
           <Image
             src={Diliberto}
             alt="croquis buconero numerado"
-            width={1000}
+            width="auto"
             height="auto"
           />
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
           <Image
             src={Gotoh}
             alt="croquis buconero numerado"
-            width={1000}
+            width="auto"
             height="auto"
           />
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
           <Image
             src={Hosco}
             alt="croquis buconero numerado"
-            width={1000}
+            width="auto"
             height="auto"
           />
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
           <Image
             src={Wilkinson}
             alt="croquis buconero numerado"
-            width={1000}
+            width="auto"
             height="auto"
           />
         </figure>

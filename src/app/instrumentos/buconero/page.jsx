@@ -72,11 +72,11 @@ export default function Buconero() {
           />
         </figure>
         <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-5 p-10 lg:p-10">
-          <ol className="space-y-2">
+          <ol className="space-y-2 text-sm lg:text-base">
             {lista.map((item, index) => (
               <li key={index}>
                 <p className="text-[var(--text-light)]">
-                  <span className="text-amber-100 mr-4">{index + 1}.</span>
+                  <span className="text-amber-100 mr-4 ">{index + 1}.</span>
                   {item.descripcion}
                 </p>
               </li>

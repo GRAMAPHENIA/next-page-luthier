@@ -87,7 +87,7 @@
     "id": "14",
     "titulo": "Velluto AR clasic",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/velluto-ar-clasic.png"
+    "foto_de_portada": "/miniaturas/velluto-clasica.png"
   },
   {
     "id": "15",
@@ -99,18 +99,18 @@
     "id": "16",
     "titulo": "Piccolina",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/buconero-standart.png"
+    "foto_de_portada": "/miniaturas/piccolina.png"
   },
   {
     "id": "17",
     "titulo": "Veneto",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/buconero-standart.png"
+    "foto_de_portada": "/miniaturas/veneto.png"
   },
   {
     "id": "18",
     "titulo": "Jazzmaster boutique",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/buconero-standart.png"
+    "foto_de_portada": "/miniaturas/jazzmaster-boutique.png"
   }
 ]

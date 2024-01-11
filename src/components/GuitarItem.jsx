@@ -18,15 +18,10 @@ const GuitarItem = ({ guitar }) => {
           <div className="flex flex-col py-5 pl-24">
             <strong className="text-lg font-light text-[var(--text-light)] group-hover:text-[var(--text-extralight)]">
               {titulo}
-            </strong> 
+            </strong>
             {/* <span className="text-sm font-medium dark:text-slate-400">
               Someone
             </span> */}
-
-
-            {/* hover:text-[var(--text-extra-light) */}
-
-
           </div>
         </div>
       </div>

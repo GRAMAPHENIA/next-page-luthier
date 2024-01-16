@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-import Slider from "@/components/slider.jsx";
+import Slider from "/components/slider.jsx";
 
 const Modal = ({ guitar, onClose }) => {
   const { alt, titulo, descripcion, foto_de_portada, fotouno } = guitar;

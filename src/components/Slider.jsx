@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 
 const Slider = () => {
@@ -10,10 +10,13 @@ const Slider = () => {
     { url: "/instagram.svg", title: "Info" },
   ];
 
-  const handleImageChange = (newIndex) => {
-    const totalImages = images.length;
-    setCurrentImage((newIndex + totalImages) % totalImages);
-  };
+  const handleImageChange = useCallback(
+    (newIndex) => {
+      const totalImages = images.length;
+      setCurrentImage((newIndex + totalImages) % totalImages);
+    },
+    [images]
+  );
 
   useEffect(() => {
     const interval = setInterval(() => {

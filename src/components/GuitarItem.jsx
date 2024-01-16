@@ -3,22 +3,25 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
+import Slider from "@/components/slider.jsx";
+
 const Modal = ({ guitar, onClose }) => {
-  const { alt, titulo, descripcion, foto_de_portada } = guitar;
+  const { alt, titulo, descripcion, foto_de_portada, fotouno } = guitar;
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50 ">
-      <div className=" flex flex-col justify-between bg-[var(--secondary)] rounded-md text-center h-[600px] w-[600px]">
-        <h2 className="text-2xl font-bold m-4">{titulo}</h2>
+      <div className="relative flex flex-col justify-between bg-[var(--secondary)] rounded-md text-center h-[90dvh] w-[100dvh] m-8">
+        <h2 className="text-xl font-extralight lg:text-2xl mt-6">{titulo}</h2>
+
+        <Slider />
+
         <p className="text-lg p-10">{descripcion}</p>
-        {/* Agregar más detalles según sea necesario */}
-        <p>detalles</p>
-        {/* Otras especificaciones */}
+
         <button
-          className="px-4 py-2 m-10 w-60 mx-auto rounded-full bg-[var(--hover-button)]"
+          className="absolute px-4 py-2 m-5 right-0 top-0 bg-[var(--hover-button)] text-center p-2 border-2 border-[#20262b] rounded-full hover:bg-[#20262b] cursor-pointer"
           onClick={onClose}
         >
-          Cerrar
+          X
         </button>
       </div>
     </div>

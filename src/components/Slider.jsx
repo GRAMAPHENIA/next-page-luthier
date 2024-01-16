@@ -11,7 +11,8 @@ const Slider = () => {
   ];
 
   const handleImageChange = (newIndex) => {
-    setCurrentImage((prevIndex) => (newIndex + images.length) % images.length);
+    const totalImages = images.length;
+    setCurrentImage((newIndex + totalImages) % totalImages);
   };
 
   useEffect(() => {
@@ -20,7 +21,7 @@ const Slider = () => {
     }, 5000);
 
     return () => clearInterval(interval);
-  }, [currentImage]);
+  }, [currentImage, handleImageChange]);
 
   return (
     <div className="text-center">
@@ -30,8 +31,8 @@ const Slider = () => {
           src={images[currentImage].url}
           alt={images[currentImage].title}
           width={300}
-          height="auto"
-        ></Image>
+          height={300}
+        />
       </div>
 
       <p className="mt-2 text-lg font-semibold">{images[currentImage].title}</p>

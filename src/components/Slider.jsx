@@ -1,22 +1,19 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, useMemo } from "react";
 import Image from "next/image";
 
 const Slider = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
-  const images = [
+  const images = useMemo(() => [
     { url: "/email.svg", title: "Título de la Imagen 1" },
     { url: "/folder.svg", title: "Título de la Imagen 2" },
     { url: "/instagram.svg", title: "Info" },
-  ];
+  ], []); // La dependencia es un array vacío, lo que significa que solo se crea una vez
 
-  const handleImageChange = useCallback(
-    (newIndex) => {
-      const totalImages = images.length;
-      setCurrentImage((newIndex + totalImages) % totalImages);
-    },
-    [images]
-  );
+  const handleImageChange = useCallback((newIndex) => {
+    const totalImages = images.length;
+    setCurrentImage((newIndex + totalImages) % totalImages);
+  }, [images]);
 
   useEffect(() => {
     const interval = setInterval(() => {

@@ -129,7 +129,13 @@
     "id": "12",
     "titulo": "PBass custom",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/p-bass-custom.png"
+    "foto_de_portada": "/miniaturas/p-bass-custom.png",
+    "galeria": [
+      { "url": "/slider/pbascustom/a.png", "title": "" },
+      { "url": "/slider/pbascustom/b.png", "title": "" },
+      { "url": "/slider/pbascustom/c.png", "title": "" },
+      { "url": "/slider/pbascustom/d.png", "title": "" }
+    ]
   },
   {
     "id": "13",

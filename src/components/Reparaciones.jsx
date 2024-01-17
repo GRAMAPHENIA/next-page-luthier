@@ -9,7 +9,7 @@ export default function Reparaciones() {
       <section className="w-full grid lg:grid-cols-4 my-2 gap-2">
         <figure className="flex flex-col align-middle justify-center p-4 lg:col-start-1 lg:col-end-4 bg-[#14181b] rounded-2xl w-full">
           <h1 className="text-3xl font-light font-sans text-[#7d8c9d] mb-5 sm:text-2xl lg:text-7xl p-6 lg:p-10">
-            <span className="text-white">Reparaciones,</span> calibraciones,
+            <span className="text-[var(--light)]">Reparaciones,</span> calibraciones,
             pintura...
           </h1>
           <Link

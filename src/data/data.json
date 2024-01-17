@@ -5,11 +5,11 @@
     "descripcion": "Esta es la descripcion",
     "foto_de_portada": "/miniaturas/impertrice-custom-zebrano.png",
     "galeria": [
-      { "url": "/slider/velluto/a.png", "title": "velluto-a" },
-      { "url": "/slider/velluto/b.png", "title": "velluto-b" },
-      { "url": "/slider/velluto/c.png", "title": "velluto-c" },
-      { "url": "/slider/velluto/d.png", "title": "velluto-d" },
-      { "url": "/slider/velluto/e.png", "title": "velluto-e" }
+      { "url": "/slider/velluto/a.png", "title": "" },
+      { "url": "/slider/velluto/b.png", "title": "" },
+      { "url": "/slider/velluto/c.png", "title": "" },
+      { "url": "/slider/velluto/d.png", "title": "" },
+      { "url": "/slider/velluto/e.png", "title": "" }
     ]
   },
   {
@@ -18,9 +18,13 @@
     "descripcion": "",
     "foto_de_portada": "/miniaturas/buconero-standart.png",
     "galeria": [
-      { "url": "/slider/buconero/a.png", "title": "buconero-a" },
-      { "url": "/slider/buconero/b.png", "title": "buconero-b" },
-      { "url": "/slider/buconero/c.png", "title": "buconero-c" }
+      { "url": "/slider/buconero/a.png", "title": "" },
+      { "url": "/slider/buconero/b.png", "title": "" },
+      { "url": "/slider/buconero/c.png", "title": "" },
+      { "url": "/slider/buconero/d.png", "title": "" },
+      { "url": "/slider/buconero/e.png", "title": "" },
+      { "url": "/slider/buconero/f.png", "title": "" },
+      { "url": "/slider/buconero/g.png", "title": "" }
     ]
   },
   {
@@ -29,22 +33,22 @@
     "descripcion": "",
     "foto_de_portada": "/miniaturas/eira-standart.png",
     "galeria": [
-      { "url": "/slider/eira/a.png", "title": "eira-a" },
-      { "url": "/slider/eira/b.png", "title": "eira-b" },
-      { "url": "/slider/eira/c.png", "title": "eira-c" }
+      { "url": "/slider/eira/a.png", "title": "" },
+      { "url": "/slider/eira/b.png", "title": "" },
+      { "url": "/slider/eira/c.png", "title": "" }
     ]
   },
   {
     "id": "3",
     "titulo": "Velluto Standart",
-    "descripcion": "Esta es la descripcion provisoria de la guitarra velluto, la cual posee...",
+    "descripcion": "",
     "foto_de_portada": "/miniaturas/velluto-standart.png",
     "galeria": [
-      { "url": "/slider/velluto/a.png", "title": "Cuerpo de frente" },
-      { "url": "/slider/velluto/b.png", "title": "Contra frente" },
-      { "url": "/slider/velluto/c.png", "title": "Detalle de microfonos" },
-      { "url": "/slider/velluto/d.png", "title": "De cuerpo completo" },
-      { "url": "/slider/velluto/e.png", "title": "Clavijero" }
+      { "url": "/slider/velluto/a.png", "title": "" },
+      { "url": "/slider/velluto/b.png", "title": "" },
+      { "url": "/slider/velluto/c.png", "title": "" },
+      { "url": "/slider/velluto/d.png", "title": "" },
+      { "url": "/slider/velluto/e.png", "title": "" }
     ]
   },
   {
@@ -69,7 +73,16 @@
     "id": "7",
     "titulo": "Buconero boutique",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/buconero-boutique.png"
+    "foto_de_portada": "/miniaturas/buconero-boutique.png",
+    "galeria": [
+      { "url": "/slider/buconero/a.png", "title": "" },
+      { "url": "/slider/buconero/b.png", "title": "" },
+      { "url": "/slider/buconero/c.png", "title": "" },
+      { "url": "/slider/buconero/d.png", "title": "" },
+      { "url": "/slider/buconero/e.png", "title": "" },
+      { "url": "/slider/buconero/f.png", "title": "" },
+      { "url": "/slider/buconero/g.png", "title": "" }
+    ]
   },
   {
     "id": "8",
@@ -93,7 +106,15 @@
     "id": "11",
     "titulo": "Clasica II",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/clasica-dos-dos.png"
+    "foto_de_portada": "/miniaturas/clasica-dos-dos.png",
+    "galeria": [
+      { "url": "/slider/clasicados/a.png", "title": "" },
+      { "url": "/slider/clasicados/b.png", "title": "" },
+      { "url": "/slider/clasicados/c.png", "title": "" },
+      { "url": "/slider/clasicados/d.png", "title": "" },
+      { "url": "/slider/clasicados/e.png", "title": "" },
+      { "url": "/slider/clasicados/f.png", "title": "" }
+    ]
   },
   {
     "id": "12",

@@ -6,7 +6,7 @@ export default function PresentacionBuconero() {
   return (
     <>
       <p className="text-3xl font-light font-sans text-[#7d8c9d] mb-5 sm:text-2xl lg:text-7xl p-6 lg:p-10">
-        <span className="text-white">Galeria</span>, para músicos clásicos o
+        <span className="text-[var(--light)]">Galeria</span>, para músicos clásicos o
         contemporáneos.
       </p>
 

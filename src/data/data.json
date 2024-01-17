@@ -14,7 +14,7 @@
   },
   {
     "id": "1",
-    "titulo": "Buconero standart",
+    "titulo": "Buconero Standart",
     "descripcion": "",
     "foto_de_portada": "/miniaturas/buconero-standart.png",
     "galeria": [
@@ -25,7 +25,7 @@
   },
   {
     "id": "2",
-    "titulo": "Eira standart",
+    "titulo": "Eira Standart",
     "descripcion": "",
     "foto_de_portada": "/miniaturas/eira-standart.png",
     "galeria": [
@@ -36,7 +36,7 @@
   },
   {
     "id": "3",
-    "titulo": "Velluto standart",
+    "titulo": "Velluto Standart",
     "descripcion": "Esta es la descripcion provisoria de la guitarra velluto, la cual posee...",
     "foto_de_portada": "/miniaturas/velluto-standart.png",
     "galeria": [

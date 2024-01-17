@@ -1,19 +1,17 @@
+// Slider.jsx
 import React, { useState, useEffect, useCallback, useMemo } from "react";
 import Image from "next/image";
 
-const Slider = () => {
+const Slider = ({ images }) => {
   const [currentImage, setCurrentImage] = useState(0);
 
-  const images = useMemo(() => [
-    { url: "/email.svg", title: "Título de la Imagen 1" },
-    { url: "/folder.svg", title: "Título de la Imagen 2" },
-    { url: "/instagram.svg", title: "Info" },
-  ], []); // La dependencia es un array vacío, lo que significa que solo se crea una vez
-
-  const handleImageChange = useCallback((newIndex) => {
-    const totalImages = images.length;
-    setCurrentImage((newIndex + totalImages) % totalImages);
-  }, [images]);
+  const handleImageChange = useCallback(
+    (newIndex) => {
+      const totalImages = images.length;
+      setCurrentImage((newIndex + totalImages) % totalImages);
+    },
+    [images]
+  );
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -24,44 +22,45 @@ const Slider = () => {
   }, [currentImage, handleImageChange]);
 
   return (
-    <div className="text-center">
-      <div className="relative mx-auto w-[400px] h-[400px]">
+    <div className="relative text-center">
+      <div className="relative mx-auto w-full h-[500px]">
         <Image
-          className="object-cover rounded-lg"
+          className="object-cover"
           src={images[currentImage].url}
           alt={images[currentImage].title}
-          width={300}
-          height={300}
+          layout="fill" // Ocupa todo el tamaño del contenedor
         />
+        <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
+          {/* Aquí colocamos los botones */}
+          <button
+            className="font-semibold text-[var(--light)] text-4xl absolute left-4"
+            onClick={() => handleImageChange(currentImage - 1)}
+          >
+            «
+          </button>
+          <button
+            className="font-semibold text-[var(--light)] text-4xl absolute right-4"
+            onClick={() => handleImageChange(currentImage + 1)}
+          >
+            »
+          </button>
+        </div>
       </div>
 
-      <p className="mt-2 text-lg font-semibold">{images[currentImage].title}</p>
+      <p className="mt-2 text-lg font-semibold text-[var(--text-light)]">
+        {images[currentImage].title}
+      </p>
 
-      <div className="flex justify-center mt-4 space-x-2">
+      <div className="flex justify-center items-center mt-4 space-x-2">
         {images.map((_, index) => (
           <button
             key={index}
             onClick={() => handleImageChange(index)}
             className={`h-4 w-4 rounded-full ${
-              index === currentImage ? "bg-amber-200" : "bg-gray-600"
+              index === currentImage ? "bg-[var(--text-extralight)]" : "bg-[var(--border-light)]"
             }`}
           />
         ))}
-      </div>
-
-      <div className="flex justify-center mt-4 space-x-40">
-        <button
-          className="font-black text-[var(--text-light)] border border-[var(--border-light)] px-4 py-2 rounded-full text-xl"
-          onClick={() => handleImageChange(currentImage - 1)}
-        >
-          «
-        </button>
-        <button
-          className="font-black text-[var(--text-light)] border border-[var(--border-light)] px-4 py-2 rounded-full text-xl"
-          onClick={() => handleImageChange(currentImage + 1)}
-        >
-          »
-        </button>
       </div>
     </div>
   );

@@ -3,18 +3,17 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-import Slider from "@/components/Slider.jsx";
+import Slider from "@/components/Slider";
 
 const Modal = ({ guitar, onClose }) => {
-  const { alt, titulo, descripcion, foto_de_portada, fotouno } = guitar;
+  const { titulo, descripcion, foto_de_portada, galeria } = guitar;
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50 ">
       <div className="relative flex flex-col justify-between bg-[var(--secondary)] rounded-md text-center h-[90dvh] w-[100dvh] m-8">
         <h2 className="text-xl font-extralight lg:text-2xl mt-6">{titulo}</h2>
 
-        <Slider />
-
+        <Slider images={galeria} />
         <p className="text-lg p-10">{descripcion}</p>
 
         <button
@@ -39,7 +38,7 @@ const GuitarItem = ({ guitar }) => {
     setModalOpen(false);
   };
 
-  const { alt, titulo, descripcion, foto_de_portada } = guitar;
+  const { titulo, descripcion, foto_de_portada, galeria } = guitar;
 
   return (
     <>

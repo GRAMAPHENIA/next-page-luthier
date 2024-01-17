@@ -4,25 +4,48 @@
     "titulo": "Impertrice custom zebrano",
     "descripcion": "Esta es la descripcion",
     "foto_de_portada": "/miniaturas/impertrice-custom-zebrano.png",
-    "fotouno": "/miniaturas/impertrice-custom-zebrano.png"
+    "galeria": [
+      { "url": "/slider/velluto/a.png", "title": "velluto-a" },
+      { "url": "/slider/velluto/b.png", "title": "velluto-b" },
+      { "url": "/slider/velluto/c.png", "title": "velluto-c" },
+      { "url": "/slider/velluto/d.png", "title": "velluto-d" },
+      { "url": "/slider/velluto/e.png", "title": "velluto-e" }
+    ]
   },
   {
     "id": "1",
     "titulo": "Buconero standart",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/buconero-standart.png"
+    "foto_de_portada": "/miniaturas/buconero-standart.png",
+    "galeria": [
+      { "url": "/slider/buconero/a.png", "title": "buconero-a" },
+      { "url": "/slider/buconero/b.png", "title": "buconero-b" },
+      { "url": "/slider/buconero/c.png", "title": "buconero-c" }
+    ]
   },
   {
     "id": "2",
     "titulo": "Eira standart",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/eira-standart.png"
+    "foto_de_portada": "/miniaturas/eira-standart.png",
+    "galeria": [
+      { "url": "/slider/eira/a.png", "title": "eira-a" },
+      { "url": "/slider/eira/b.png", "title": "eira-b" },
+      { "url": "/slider/eira/c.png", "title": "eira-c" }
+    ]
   },
   {
     "id": "3",
     "titulo": "Velluto standart",
-    "descripcion": "",
-    "foto_de_portada": "/miniaturas/velluto-standart.png"
+    "descripcion": "Esta es la descripcion provisoria de la guitarra velluto, la cual posee...",
+    "foto_de_portada": "/miniaturas/velluto-standart.png",
+    "galeria": [
+      { "url": "/slider/velluto/a.png", "title": "Cuerpo de frente" },
+      { "url": "/slider/velluto/b.png", "title": "Contra frente" },
+      { "url": "/slider/velluto/c.png", "title": "Detalle de microfonos" },
+      { "url": "/slider/velluto/d.png", "title": "De cuerpo completo" },
+      { "url": "/slider/velluto/e.png", "title": "Clavijero" }
+    ]
   },
   {
     "id": "4",

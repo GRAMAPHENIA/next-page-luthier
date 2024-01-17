@@ -97,7 +97,20 @@
     "id": "8",
     "titulo": "Velluto ARN",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/velluto-arn.png"
+    "foto_de_portada": "/miniaturas/velluto-arn.png",
+    "galeria": [
+      { "url": "/slider/vellutoarn/a.png", "title": "" },
+      { "url": "/slider/vellutoarn/b.png", "title": "" },
+      { "url": "/slider/vellutoarn/c.png", "title": "" },
+      { "url": "/slider/vellutoarn/d.png", "title": "" },
+      { "url": "/slider/vellutoarn/e.png", "title": "" },
+      { "url": "/slider/vellutoarn/f.png", "title": "" },
+      { "url": "/slider/vellutoarn/g.png", "title": "" },
+      { "url": "/slider/vellutoarn/h.png", "title": "" },
+      { "url": "/slider/vellutoarn/i.png", "title": "" },
+      { "url": "/slider/vellutoarn/j.png", "title": "" },
+      { "url": "/slider/vellutoarn/k.png", "title": "" }
+    ]
   },
   {
     "id": "9",

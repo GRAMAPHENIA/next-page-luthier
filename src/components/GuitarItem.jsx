@@ -47,7 +47,7 @@ const GuitarItem = ({ guitar }) => {
         className="relative rounded-xl overflow-auto px-0 my-4 group"
         onClick={openModal}
       >
-        <figure className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center hover:text-[var(--text-extra-light)] bg-[var(--dark)] hover:bg-[var(--secondary)] cursor-pointer border border-white/10">
+        <figure className="overflow-hidden relative max-w-sm mx-auto ring-1 ring-black/5 rounded-xl flex items-center hover:text-[var(--text-extra-light)] bg-[var(--secondary)] hover:bg-[var(--dark)] cursor-pointer border border-white/10">
           <Image
             className="absolute -left-6 w-24 h-24 rounded-full shadow-lg border-4 border-white/10"
             src={foto_de_portada}

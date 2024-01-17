@@ -50,7 +50,7 @@ const Slider = ({ images }) => {
         {images[currentImage].title}
       </p> */}
 
-      <div className="flex justify-center items-center my-10 space-x-3">
+      <div className="flex justify-center items-center mt-20 space-x-3">
         {images.map((_, index) => (
           <button
             key={index}

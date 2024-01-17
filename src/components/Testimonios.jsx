@@ -8,12 +8,12 @@ export default function Testimonios({ testimonio }) {
         {testimonio.map((testimonio, index) => (
           <div
             key={index}
-            className="bg-[#171c1f] p-8 rounded-xl border border-[var(--hover-button)] flex flex-col justify-between"
+            className="bg-[#171c1f] p-6 rounded-xl border border-[var(--hover-button)] flex flex-col justify-between"
           >
             <section className="flex items-center gap-4">
               <Image
-                width={45}
-                height={45}
+                width={35}
+                height={35}
                 src={testimonio.img}
                 alt="Croquis de guitarra buconero"
                 priority={true}
@@ -23,43 +23,43 @@ export default function Testimonios({ testimonio }) {
                 {testimonio.author}
               </strong>
             </section>
-            <div className="mt-4">
+            <div className="mt-4 truncate">
               <span className="text-[var(--text-light)]">
                 {testimonio.comment}
               </span>
             </div>
-            <div className="flex justify-center mt-4">
+            <div className="flex justify-center mt-4 gap-1">
               <Image
-                width={15}
-                height={15}
+                width={10}
+                height={10}
                 src={Estrella}
                 alt="Croquis de guitarra buconero"
                 priority={true}
               ></Image>
               <Image
-                width={15}
-                height={15}
+                width={10}
+                height={10}
                 src={Estrella}
                 alt="Croquis de guitarra buconero"
                 priority={true}
               ></Image>
               <Image
-                width={15}
-                height={15}
+                width={10}
+                height={10}
                 src={Estrella}
                 alt="Croquis de guitarra buconero"
                 priority={true}
               ></Image>
               <Image
-                width={15}
-                height={15}
+                width={10}
+                height={10}
                 src={Estrella}
                 alt="Croquis de guitarra buconero"
                 priority={true}
               ></Image>
               <Image
-                width={15}
-                height={15}
+                width={10}
+                height={10}
                 src={Estrella}
                 alt="Croquis de guitarra buconero"
                 priority={true}

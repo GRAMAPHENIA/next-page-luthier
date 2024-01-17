@@ -55,7 +55,16 @@
     "id": "4",
     "titulo": "Es35 Nativa",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/es-35-nativa.png"
+    "foto_de_portada": "/miniaturas/es-35-nativa.png",
+    "galeria": [
+      { "url": "/slider/es35nativa/a.png", "title": "" },
+      { "url": "/slider/es35nativa/b.png", "title": "" },
+      { "url": "/slider/es35nativa/c.png", "title": "" },
+      { "url": "/slider/es35nativa/d.png", "title": "" },
+      { "url": "/slider/es35nativa/e.png", "title": "" },
+      { "url": "/slider/es35nativa/f.png", "title": "" },
+      { "url": "/slider/es35nativa/g.png", "title": "" }
+    ]
   },
   {
     "id": "5",
@@ -144,7 +153,16 @@
     "id": "16",
     "titulo": "Piccolina",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/piccolina.png"
+    "foto_de_portada": "/miniaturas/piccolina.png",
+    "galeria": [
+      { "url": "/slider/piccolina/a.png", "title": "" },
+      { "url": "/slider/piccolina/b.png", "title": "" },
+      { "url": "/slider/piccolina/c.png", "title": "" },
+      { "url": "/slider/piccolina/d.png", "title": "" },
+      { "url": "/slider/piccolina/e.png", "title": "" },
+      { "url": "/slider/piccolina/f.png", "title": "" },
+      { "url": "/slider/piccolina/g.png", "title": "" }
+    ]
   },
   {
     "id": "17",

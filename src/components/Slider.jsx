@@ -32,13 +32,13 @@ const Slider = ({ images }) => {
         />
         <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
           <button
-            className="font-semibold text-[var(--light)] text-4xl absolute left-10"
+            className="font-semibold text-[var(--light)] text-4xl absolute left-3 lg:left-10"
             onClick={() => handleImageChange(currentImage - 1)}
           >
             «
           </button>
           <button
-            className="font-semibold text-[var(--light)] text-4xl absolute right-10"
+            className="font-semibold text-[var(--light)] text-4xl absolute right-3 lg:right-10"
             onClick={() => handleImageChange(currentImage + 1)}
           >
             »
@@ -46,11 +46,11 @@ const Slider = ({ images }) => {
         </div>
       </div>
 
-      <p className="my-5 text-lg font-light text-[var(--text-light)]">
+      {/* <p className="my-5 text-lg font-light text-[var(--text-light)]">
         {images[currentImage].title}
-      </p>
+      </p> */}
 
-      <div className="flex justify-center items-center mb-4 space-x-3">
+      <div className="flex justify-center items-center my-10 space-x-3">
         {images.map((_, index) => (
           <button
             key={index}

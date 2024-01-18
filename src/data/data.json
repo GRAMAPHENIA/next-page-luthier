@@ -1,15 +1,16 @@
 [
   {
     "id": "0",
-    "titulo": "Impertrice custom zebrano",
+    "titulo": "Imperatrice custom zebrano",
     "descripcion": "Esta es la descripcion",
     "foto_de_portada": "/miniaturas/impertrice-custom-zebrano.png",
     "galeria": [
-      { "url": "/slider/velluto/a.png", "title": "" },
-      { "url": "/slider/velluto/b.png", "title": "" },
-      { "url": "/slider/velluto/c.png", "title": "" },
-      { "url": "/slider/velluto/d.png", "title": "" },
-      { "url": "/slider/velluto/e.png", "title": "" }
+      { "url": "/slider/imperatricecustomzebrano/a.png", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/b.png", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/c.png", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/d.png", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/e.png", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/f.png", "title": "" }
     ]
   },
   {

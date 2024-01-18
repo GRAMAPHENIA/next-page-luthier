@@ -148,7 +148,13 @@
     "id": "10",
     "titulo": "LP junior custom",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/lp-junior-custom.png"
+    "foto_de_portada": "/miniaturas/lp-junior-custom.png",
+    "galeria": [
+      { "url": "/slider/lpjunior/a.png", "title": "" },
+      { "url": "/slider/lpjunior/b.png", "title": "" },
+      { "url": "/slider/lpjunior/c.png", "title": "" },
+      { "url": "/slider/lpjunior/d.png", "title": "" }
+    ]
   },
   {
     "id": "11",

@@ -35,7 +35,10 @@
     "galeria": [
       { "url": "/slider/eira/a.png", "title": "" },
       { "url": "/slider/eira/b.png", "title": "" },
-      { "url": "/slider/eira/c.png", "title": "" }
+      { "url": "/slider/eira/c.png", "title": "" },
+      { "url": "/slider/eira/d.png", "title": "" },
+      { "url": "/slider/eira/e.png", "title": "" },
+      { "url": "/slider/eira/f.png", "title": "" }
     ]
   },
   {
@@ -84,7 +87,16 @@
     "id": "6",
     "titulo": "Clasica II",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/clasica-dos.png"
+    "foto_de_portada": "/miniaturas/clasica-dos.png",
+    "galeria": [
+      { "url": "/slider/clasica/a.png", "title": "" },
+      { "url": "/slider/clasica/b.png", "title": "" },
+      { "url": "/slider/clasica/c.png", "title": "" },
+      { "url": "/slider/clasica/d.png", "title": "" },
+      { "url": "/slider/clasica/e.png", "title": "" },
+      { "url": "/slider/clasica/f.png", "title": "" },
+      { "url": "/slider/clasica/g.png", "title": "" }
+    ]
   },
   {
     "id": "7",

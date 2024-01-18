@@ -69,7 +69,15 @@
     "id": "5",
     "titulo": "Buconero custom nativa",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/buconero-custom-nativa.png"
+    "foto_de_portada": "/miniaturas/buconero-custom-nativa.png",
+    "galeria": [
+      { "url": "/slider/buconerocustomnativa/a.png", "title": "" },
+      { "url": "/slider/buconerocustomnativa/b.png", "title": "" },
+      { "url": "/slider/buconerocustomnativa/c.png", "title": "" },
+      { "url": "/slider/buconerocustomnativa/d.png", "title": "" },
+      { "url": "/slider/buconerocustomnativa/e.png", "title": "" },
+      { "url": "/slider/buconerocustomnativa/f.png", "title": "" }
+    ]
   },
   {
     "id": "6",

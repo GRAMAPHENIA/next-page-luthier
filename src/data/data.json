@@ -168,7 +168,14 @@
     "id": "13",
     "titulo": "Tele 60's custom",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/tele-custom.png"
+    "foto_de_portada": "/miniaturas/tele-custom.png",
+    "galeria": [
+      { "url": "/slider/telecustom/a.png", "title": "" },
+      { "url": "/slider/telecustom/b.png", "title": "" },
+      { "url": "/slider/telecustom/c.png", "title": "" },
+      { "url": "/slider/telecustom/d.png", "title": "" },
+      { "url": "/slider/telecustom/e.png", "title": "" }
+    ]
   },
   {
     "id": "14",

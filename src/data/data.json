@@ -248,6 +248,14 @@
     "id": "18",
     "titulo": "Jazzmaster boutique",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/jazzmaster-boutique.png"
+    "foto_de_portada": "/miniaturas/jazzmaster-boutique.png",
+    "galeria": [
+      { "url": "/slider/jazzmasterboutique/a.png", "title": "" },
+      { "url": "/slider/jazzmasterboutique/b.png", "title": "" },
+      { "url": "/slider/jazzmasterboutique/c.png", "title": "" },
+      { "url": "/slider/jazzmasterboutique/d.png", "title": "" },
+      { "url": "/slider/jazzmasterboutique/e.png", "title": "" },
+      { "url": "/slider/jazzmasterboutique/f.png", "title": "" }
+    ]
   }
 ]

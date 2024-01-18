@@ -199,7 +199,15 @@
     "id": "14",
     "titulo": "Velluto AR clasic",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/velluto-clasica.png"
+    "foto_de_portada": "/miniaturas/velluto-clasica.png",
+    "galeria": [
+      { "url": "/slider/vellutoarclasic/a.png", "title": "" },
+      { "url": "/slider/vellutoarclasic/b.png", "title": "" },
+      { "url": "/slider/vellutoarclasic/c.png", "title": "" },
+      { "url": "/slider/vellutoarclasic/d.png", "title": "" },
+      { "url": "/slider/vellutoarclasic/e.png", "title": "" },
+      { "url": "/slider/vellutoarclasic/f.png", "title": "" }
+    ]
   },
   {
     "id": "15",

@@ -213,7 +213,16 @@
     "id": "15",
     "titulo": "Strato 60's custom",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/strato-custom.png"
+    "foto_de_portada": "/miniaturas/strato-custom.png",
+    "galeria": [
+      { "url": "/slider/stratocustom/a.png", "title": "" },
+      { "url": "/slider/stratocustom/b.png", "title": "" },
+      { "url": "/slider/stratocustom/c.png", "title": "" },
+      { "url": "/slider/stratocustom/d.png", "title": "" },
+      { "url": "/slider/stratocustom/e.png", "title": "" },
+      { "url": "/slider/stratocustom/f.png", "title": "" },
+      { "url": "/slider/stratocustom/g.png", "title": "" }
+    ]
   },
   {
     "id": "16",
@@ -255,6 +264,7 @@
       { "url": "/slider/jazzmasterboutique/c.png", "title": "" },
       { "url": "/slider/jazzmasterboutique/d.png", "title": "" },
       { "url": "/slider/jazzmasterboutique/e.png", "title": "" },
+      { "url": "/slider/jazzmasterboutique/f.png", "title": "" },
       { "url": "/slider/jazzmasterboutique/f.png", "title": "" }
     ]
   }

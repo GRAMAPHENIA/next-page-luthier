@@ -208,7 +208,15 @@
     "id": "17",
     "titulo": "Veneto",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/veneto.png"
+    "foto_de_portada": "/miniaturas/veneto.png",
+    "galeria": [
+      { "url": "/slider/veneto/a.png", "title": "" },
+      { "url": "/slider/veneto/b.png", "title": "" },
+      { "url": "/slider/veneto/c.png", "title": "" },
+      { "url": "/slider/veneto/d.png", "title": "" },
+      { "url": "/slider/veneto/e.png", "title": "" },
+      { "url": "/slider/veneto/f.png", "title": "" }
+    ]
   },
   {
     "id": "18",

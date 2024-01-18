@@ -123,7 +123,13 @@
     "id": "9",
     "titulo": "Smally pequestrat",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/smally-pequestrat.png"
+    "foto_de_portada": "/miniaturas/smally-pequestrat.png",
+    "galeria": [
+      { "url": "/slider/smallypequestrat/a.png", "title": "" },
+      { "url": "/slider/smallypequestrat/b.png", "title": "" },
+      { "url": "/slider/smallypequestrat/c.png", "title": "" },
+      { "url": "/slider/smallypequestrat/d.png", "title": "" }
+    ]
   },
   {
     "id": "10",

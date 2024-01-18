@@ -54,6 +54,7 @@ const GuitarItem = ({ guitar }) => {
             alt={titulo}
             width={96}
             height={96}
+            loading="lazy"
           />
           <div className="flex flex-col py-5 pl-24">
             <strong className="text-lg font-light text-[var(--text-light)] group-hover:text-[var(--text-extralight)]">

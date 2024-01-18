@@ -18,13 +18,12 @@
     "descripcion": "",
     "foto_de_portada": "/miniaturas/buconero-standart.png",
     "galeria": [
-      { "url": "/slider/buconero/a.png", "title": "" },
-      { "url": "/slider/buconero/b.png", "title": "" },
-      { "url": "/slider/buconero/c.png", "title": "" },
-      { "url": "/slider/buconero/d.png", "title": "" },
-      { "url": "/slider/buconero/e.png", "title": "" },
-      { "url": "/slider/buconero/f.png", "title": "" },
-      { "url": "/slider/buconero/g.png", "title": "" }
+      { "url": "/slider/buconerostandart/a.png", "title": "" },
+      { "url": "/slider/buconerostandart/b.png", "title": "" },
+      { "url": "/slider/buconerostandart/c.png", "title": "" },
+      { "url": "/slider/buconerostandart/d.png", "title": "" },
+      { "url": "/slider/buconerostandart/e.png", "title": "" },
+      { "url": "/slider/buconerostandart/f.png", "title": "" }
     ]
   },
   {

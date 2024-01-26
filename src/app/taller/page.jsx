@@ -1,7 +1,7 @@
 import Image from "next/image";
 import tallerDos from "@/public/taller/tallerdos.png";
 import tallerTres from "@/public/taller/tallertres.png";
-import tallerCuatro from "@/public/taller/tallerCuatro.png";
+import tallerCuatro from "@/public/taller/tallercuatro.png";
 
 export const metadata = {
   title: "El Taller",

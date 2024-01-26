@@ -54,7 +54,7 @@ export default function Buconero() {
 
   return (
     <>
-      <section className="grid my-2 grid-cols-4 row-span-4 lg:grid lg:grid-cols-8 gap-2 ">
+      <section className="grid my-2 grid-cols-4 row-span-4 lg:grid lg:grid-cols-8 gap-2">
         <figure className="relative bg-[#14181b] rounded-2xl col-span-8 p-10 lg:p-10">
           <Image
             src={CroquisBuconeroVert}

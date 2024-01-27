@@ -15,31 +15,31 @@ export default function BodyBuconero() {
     <>
       <section className="grid grid-cols-3 lg:grid-cols-6 w-full gap-2 text-center">
         <Link
-          href="/"
+          href="https://www.instagram.com/di_corato_luthier/"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
         >
           <Image src={Instagram} alt="Icono de la red social Instagram"></Image>
         </Link>
         <Link
-          href="/"
+          href="https://www.facebook.com/dicorato.luthier"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
         >
           <Image src={Facebook} alt="Icono de la red social Facebook"></Image>
         </Link>
         <Link
-          href="/"
+          href="https://www.youtube.com/@dicorato.luthier"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
         >
           <Image src={Youtube} alt="Icono de la red social Youtube"></Image>
         </Link>
         <Link
-          href="/"
+          href="https://wa.me/+5491154637450"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
         >
           <Image src={Wsap} alt="Icono de la red social Whatsapp"></Image>
         </Link>
         <Link
-          href="/"
+          href="mailto:dicoratolutjier@gmail.com"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#171c1f] hover:text-amber-100"
         >
           <Image src={Email} alt="Icono del Email"></Image>

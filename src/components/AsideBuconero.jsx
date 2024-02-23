@@ -8,7 +8,7 @@ export default function AsideBuconero() {
         <Image
           width="150"
           height="auto"
-          src={croquiBuconero}
+          src={croquiBuconero} 
           alt="Foto de la guitarra Buconero"
           priority={true}
         />

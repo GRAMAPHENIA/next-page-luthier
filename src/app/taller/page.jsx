@@ -20,7 +20,7 @@ export default function Taller() {
             src={tallerDos}
             alt="croquis buconero numerado"
             width={1000}
-            height="auto"
+            height={600}
             className="rounded-xl "
           />
         </figure>
@@ -30,7 +30,7 @@ export default function Taller() {
             src={tallerTres}
             alt="croquis buconero numerado"
             width={1000}
-            height="auto"
+            height={600}
             className="rounded-xl object-fit"
           />
         </figure>
@@ -40,7 +40,7 @@ export default function Taller() {
             src={tallerCuatro}
             alt="croquis buconero numerado"
             width={1000}
-            height="auto"
+            height={600}
             className="rounded-xl"
           />
         </figure>
@@ -49,7 +49,7 @@ export default function Taller() {
             src={tallerCinco}
             alt="croquis buconero numerado"
             width={1000}
-            height="auto"
+            height={600}
             className="rounded-xl"
           />
         </figure>
@@ -58,7 +58,7 @@ export default function Taller() {
             src={tallerSeis}
             alt="croquis buconero numerado"
             width={1000}
-            height="auto"
+            height={600}
             className="rounded-xl"
           />
         </figure>
@@ -67,7 +67,7 @@ export default function Taller() {
             src={tallerSiete}
             alt="croquis buconero numerado"
             width={1000}
-            height="auto"
+            height={600}
             className="rounded-xl"
           />
         </figure>
@@ -76,7 +76,7 @@ export default function Taller() {
             src={tallerOcho}
             alt="croquis buconero numerado"
             width={1000}
-            height="auto"
+            height={600}
             className="rounded-xl "
           />
         </figure>

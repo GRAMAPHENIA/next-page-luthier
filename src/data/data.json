@@ -3,269 +3,269 @@
     "id": "0",
     "titulo": "Imperatrice zebrano",
     "descripcion": "Esta es la descripcion",
-    "foto_de_portada": "/miniaturas/impertrice-custom-zebrano.png",
+    "foto_de_portada": "/miniaturas/impertrice-custom-zebrano.svg",
     "galeria": [
-      { "url": "/slider/imperatricecustomzebrano/a.png", "title": "" },
-      { "url": "/slider/imperatricecustomzebrano/b.png", "title": "" },
-      { "url": "/slider/imperatricecustomzebrano/c.png", "title": "" },
-      { "url": "/slider/imperatricecustomzebrano/d.png", "title": "" },
-      { "url": "/slider/imperatricecustomzebrano/e.png", "title": "" },
-      { "url": "/slider/imperatricecustomzebrano/f.png", "title": "" }
+      { "url": "/slider/imperatricecustomzebrano/a.svg", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/b.svg", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/c.svg", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/d.svg", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/e.svg", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/f.svg", "title": "" }
     ]
   },
   {
     "id": "1",
     "titulo": "Buconero Standart",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/buconero-standart.png",
+    "foto_de_portada": "/miniaturas/buconero-standart.svg",
     "galeria": [
-      { "url": "/slider/buconerostandart/a.png", "title": "" },
-      { "url": "/slider/buconerostandart/b.png", "title": "" },
-      { "url": "/slider/buconerostandart/c.png", "title": "" },
-      { "url": "/slider/buconerostandart/d.png", "title": "" },
-      { "url": "/slider/buconerostandart/e.png", "title": "" },
-      { "url": "/slider/buconerostandart/f.png", "title": "" }
+      { "url": "/slider/buconerostandart/a.svg", "title": "" },
+      { "url": "/slider/buconerostandart/b.svg", "title": "" },
+      { "url": "/slider/buconerostandart/c.svg", "title": "" },
+      { "url": "/slider/buconerostandart/d.svg", "title": "" },
+      { "url": "/slider/buconerostandart/e.svg", "title": "" },
+      { "url": "/slider/buconerostandart/f.svg", "title": "" }
     ]
   },
   {
     "id": "2",
     "titulo": "Eira Standart",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/eira-standart.png",
+    "foto_de_portada": "/miniaturas/eira-standart.svg",
     "galeria": [
-      { "url": "/slider/eira/a.png", "title": "" },
-      { "url": "/slider/eira/b.png", "title": "" },
-      { "url": "/slider/eira/c.png", "title": "" },
-      { "url": "/slider/eira/d.png", "title": "" },
-      { "url": "/slider/eira/e.png", "title": "" },
-      { "url": "/slider/eira/f.png", "title": "" }
+      { "url": "/slider/eira/a.svg", "title": "" },
+      { "url": "/slider/eira/b.svg", "title": "" },
+      { "url": "/slider/eira/c.svg", "title": "" },
+      { "url": "/slider/eira/d.svg", "title": "" },
+      { "url": "/slider/eira/e.svg", "title": "" },
+      { "url": "/slider/eira/f.svg", "title": "" }
     ]
   },
   {
     "id": "3",
     "titulo": "Velluto Standart",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/velluto-standart.png",
+    "foto_de_portada": "/miniaturas/velluto-standart.svg",
     "galeria": [
-      { "url": "/slider/velluto/a.png", "title": "" },
-      { "url": "/slider/velluto/b.png", "title": "" },
-      { "url": "/slider/velluto/c.png", "title": "" },
-      { "url": "/slider/velluto/d.png", "title": "" },
-      { "url": "/slider/velluto/e.png", "title": "" }
+      { "url": "/slider/velluto/a.svg", "title": "" },
+      { "url": "/slider/velluto/b.svg", "title": "" },
+      { "url": "/slider/velluto/c.svg", "title": "" },
+      { "url": "/slider/velluto/d.svg", "title": "" },
+      { "url": "/slider/velluto/e.svg", "title": "" }
     ]
   },
   {
     "id": "4",
     "titulo": "Es35 Nativa",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/es-35-nativa.png",
+    "foto_de_portada": "/miniaturas/es-35-nativa.svg",
     "galeria": [
-      { "url": "/slider/es35nativa/a.png", "title": "" },
-      { "url": "/slider/es35nativa/b.png", "title": "" },
-      { "url": "/slider/es35nativa/c.png", "title": "" },
-      { "url": "/slider/es35nativa/d.png", "title": "" },
-      { "url": "/slider/es35nativa/e.png", "title": "" },
-      { "url": "/slider/es35nativa/f.png", "title": "" },
-      { "url": "/slider/es35nativa/g.png", "title": "" }
+      { "url": "/slider/es35nativa/a.svg", "title": "" },
+      { "url": "/slider/es35nativa/b.svg", "title": "" },
+      { "url": "/slider/es35nativa/c.svg", "title": "" },
+      { "url": "/slider/es35nativa/d.svg", "title": "" },
+      { "url": "/slider/es35nativa/e.svg", "title": "" },
+      { "url": "/slider/es35nativa/f.svg", "title": "" },
+      { "url": "/slider/es35nativa/g.svg", "title": "" }
     ]
   },
   {
     "id": "5",
     "titulo": "Buconero custom nativa",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/buconero-custom-nativa.png",
+    "foto_de_portada": "/miniaturas/buconero-custom-nativa.svg",
     "galeria": [
-      { "url": "/slider/buconerocustomnativa/a.png", "title": "" },
-      { "url": "/slider/buconerocustomnativa/b.png", "title": "" },
-      { "url": "/slider/buconerocustomnativa/c.png", "title": "" },
-      { "url": "/slider/buconerocustomnativa/d.png", "title": "" },
-      { "url": "/slider/buconerocustomnativa/e.png", "title": "" },
-      { "url": "/slider/buconerocustomnativa/f.png", "title": "" }
+      { "url": "/slider/buconerocustomnativa/a.svg", "title": "" },
+      { "url": "/slider/buconerocustomnativa/b.svg", "title": "" },
+      { "url": "/slider/buconerocustomnativa/c.svg", "title": "" },
+      { "url": "/slider/buconerocustomnativa/d.svg", "title": "" },
+      { "url": "/slider/buconerocustomnativa/e.svg", "title": "" },
+      { "url": "/slider/buconerocustomnativa/f.svg", "title": "" }
     ]
   },
   {
     "id": "6",
     "titulo": "Clasica II",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/clasica-dos.png",
+    "foto_de_portada": "/miniaturas/clasica-dos.svg",
     "galeria": [
-      { "url": "/slider/clasica/a.png", "title": "" },
-      { "url": "/slider/clasica/b.png", "title": "" },
-      { "url": "/slider/clasica/c.png", "title": "" },
-      { "url": "/slider/clasica/d.png", "title": "" },
-      { "url": "/slider/clasica/e.png", "title": "" },
-      { "url": "/slider/clasica/f.png", "title": "" },
-      { "url": "/slider/clasica/g.png", "title": "" }
+      { "url": "/slider/clasica/a.svg", "title": "" },
+      { "url": "/slider/clasica/b.svg", "title": "" },
+      { "url": "/slider/clasica/c.svg", "title": "" },
+      { "url": "/slider/clasica/d.svg", "title": "" },
+      { "url": "/slider/clasica/e.svg", "title": "" },
+      { "url": "/slider/clasica/f.svg", "title": "" },
+      { "url": "/slider/clasica/g.svg", "title": "" }
     ]
   },
   {
     "id": "7",
     "titulo": "Buconero boutique",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/buconero-boutique.png",
+    "foto_de_portada": "/miniaturas/buconero-boutique.svg",
     "galeria": [
-      { "url": "/slider/buconero/a.png", "title": "" },
-      { "url": "/slider/buconero/b.png", "title": "" },
-      { "url": "/slider/buconero/c.png", "title": "" },
-      { "url": "/slider/buconero/d.png", "title": "" },
-      { "url": "/slider/buconero/e.png", "title": "" },
-      { "url": "/slider/buconero/f.png", "title": "" },
-      { "url": "/slider/buconero/g.png", "title": "" }
+      { "url": "/slider/buconero/a.svg", "title": "" },
+      { "url": "/slider/buconero/b.svg", "title": "" },
+      { "url": "/slider/buconero/c.svg", "title": "" },
+      { "url": "/slider/buconero/d.svg", "title": "" },
+      { "url": "/slider/buconero/e.svg", "title": "" },
+      { "url": "/slider/buconero/f.svg", "title": "" },
+      { "url": "/slider/buconero/g.svg", "title": "" }
     ]
   },
   {
     "id": "8",
     "titulo": "Velluto ARN",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/velluto-arn.png",
+    "foto_de_portada": "/miniaturas/velluto-arn.svg",
     "galeria": [
-      { "url": "/slider/vellutoarn/a.png", "title": "" },
-      { "url": "/slider/vellutoarn/b.png", "title": "" },
-      { "url": "/slider/vellutoarn/c.png", "title": "" },
-      { "url": "/slider/vellutoarn/d.png", "title": "" },
-      { "url": "/slider/vellutoarn/e.png", "title": "" },
-      { "url": "/slider/vellutoarn/f.png", "title": "" },
-      { "url": "/slider/vellutoarn/g.png", "title": "" },
-      { "url": "/slider/vellutoarn/h.png", "title": "" },
-      { "url": "/slider/vellutoarn/i.png", "title": "" },
-      { "url": "/slider/vellutoarn/j.png", "title": "" },
-      { "url": "/slider/vellutoarn/k.png", "title": "" }
+      { "url": "/slider/vellutoarn/a.svg", "title": "" },
+      { "url": "/slider/vellutoarn/b.svg", "title": "" },
+      { "url": "/slider/vellutoarn/c.svg", "title": "" },
+      { "url": "/slider/vellutoarn/d.svg", "title": "" },
+      { "url": "/slider/vellutoarn/e.svg", "title": "" },
+      { "url": "/slider/vellutoarn/f.svg", "title": "" },
+      { "url": "/slider/vellutoarn/g.svg", "title": "" },
+      { "url": "/slider/vellutoarn/h.svg", "title": "" },
+      { "url": "/slider/vellutoarn/i.svg", "title": "" },
+      { "url": "/slider/vellutoarn/j.svg", "title": "" },
+      { "url": "/slider/vellutoarn/k.svg", "title": "" }
     ]
   },
   {
     "id": "9",
     "titulo": "Smally pequestrat",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/smally-pequestrat.png",
+    "foto_de_portada": "/miniaturas/smally-pequestrat.svg",
     "galeria": [
-      { "url": "/slider/smallypequestrat/a.png", "title": "" },
-      { "url": "/slider/smallypequestrat/b.png", "title": "" },
-      { "url": "/slider/smallypequestrat/c.png", "title": "" },
-      { "url": "/slider/smallypequestrat/d.png", "title": "" }
+      { "url": "/slider/smallypequestrat/a.svg", "title": "" },
+      { "url": "/slider/smallypequestrat/b.svg", "title": "" },
+      { "url": "/slider/smallypequestrat/c.svg", "title": "" },
+      { "url": "/slider/smallypequestrat/d.svg", "title": "" }
     ]
   },
   {
     "id": "10",
     "titulo": "LP junior custom",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/lp-junior-custom.png",
+    "foto_de_portada": "/miniaturas/lp-junior-custom.svg",
     "galeria": [
-      { "url": "/slider/lpjunior/a.png", "title": "" },
-      { "url": "/slider/lpjunior/b.png", "title": "" },
-      { "url": "/slider/lpjunior/c.png", "title": "" },
-      { "url": "/slider/lpjunior/d.png", "title": "" }
+      { "url": "/slider/lpjunior/a.svg", "title": "" },
+      { "url": "/slider/lpjunior/b.svg", "title": "" },
+      { "url": "/slider/lpjunior/c.svg", "title": "" },
+      { "url": "/slider/lpjunior/d.svg", "title": "" }
     ]
   },
   {
     "id": "11",
     "titulo": "Clasica II",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/clasica-dos-dos.png",
+    "foto_de_portada": "/miniaturas/clasica-dos-dos.svg",
     "galeria": [
-      { "url": "/slider/clasicados/a.png", "title": "" },
-      { "url": "/slider/clasicados/b.png", "title": "" },
-      { "url": "/slider/clasicados/c.png", "title": "" },
-      { "url": "/slider/clasicados/d.png", "title": "" },
-      { "url": "/slider/clasicados/e.png", "title": "" },
-      { "url": "/slider/clasicados/f.png", "title": "" }
+      { "url": "/slider/clasicados/a.svg", "title": "" },
+      { "url": "/slider/clasicados/b.svg", "title": "" },
+      { "url": "/slider/clasicados/c.svg", "title": "" },
+      { "url": "/slider/clasicados/d.svg", "title": "" },
+      { "url": "/slider/clasicados/e.svg", "title": "" },
+      { "url": "/slider/clasicados/f.svg", "title": "" }
     ]
   },
   {
     "id": "12",
     "titulo": "PBass custom",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/p-bass-custom.png",
+    "foto_de_portada": "/miniaturas/p-bass-custom.svg",
     "galeria": [
-      { "url": "/slider/pbascustom/a.png", "title": "" },
-      { "url": "/slider/pbascustom/b.png", "title": "" },
-      { "url": "/slider/pbascustom/c.png", "title": "" },
-      { "url": "/slider/pbascustom/d.png", "title": "" }
+      { "url": "/slider/pbascustom/a.svg", "title": "" },
+      { "url": "/slider/pbascustom/b.svg", "title": "" },
+      { "url": "/slider/pbascustom/c.svg", "title": "" },
+      { "url": "/slider/pbascustom/d.svg", "title": "" }
     ]
   },
   {
     "id": "13",
     "titulo": "Tele 60's custom",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/tele-custom.png",
+    "foto_de_portada": "/miniaturas/tele-custom.svg",
     "galeria": [
-      { "url": "/slider/telecustom/a.png", "title": "" },
-      { "url": "/slider/telecustom/b.png", "title": "" },
-      { "url": "/slider/telecustom/c.png", "title": "" },
-      { "url": "/slider/telecustom/d.png", "title": "" },
-      { "url": "/slider/telecustom/e.png", "title": "" }
+      { "url": "/slider/telecustom/a.svg", "title": "" },
+      { "url": "/slider/telecustom/b.svg", "title": "" },
+      { "url": "/slider/telecustom/c.svg", "title": "" },
+      { "url": "/slider/telecustom/d.svg", "title": "" },
+      { "url": "/slider/telecustom/e.svg", "title": "" }
     ]
   },
   {
     "id": "14",
     "titulo": "Velluto AR clasic",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/velluto-clasica.png",
+    "foto_de_portada": "/miniaturas/velluto-clasica.svg",
     "galeria": [
-      { "url": "/slider/vellutoarclasic/a.png", "title": "" },
-      { "url": "/slider/vellutoarclasic/b.png", "title": "" },
-      { "url": "/slider/vellutoarclasic/c.png", "title": "" },
-      { "url": "/slider/vellutoarclasic/d.png", "title": "" },
-      { "url": "/slider/vellutoarclasic/e.png", "title": "" },
-      { "url": "/slider/vellutoarclasic/f.png", "title": "" }
+      { "url": "/slider/vellutoarclasic/a.svg", "title": "" },
+      { "url": "/slider/vellutoarclasic/b.svg", "title": "" },
+      { "url": "/slider/vellutoarclasic/c.svg", "title": "" },
+      { "url": "/slider/vellutoarclasic/d.svg", "title": "" },
+      { "url": "/slider/vellutoarclasic/e.svg", "title": "" },
+      { "url": "/slider/vellutoarclasic/f.svg", "title": "" }
     ]
   },
   {
     "id": "15",
     "titulo": "Strato 60's custom",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/strato-custom.png",
+    "foto_de_portada": "/miniaturas/strato-custom.svg",
     "galeria": [
-      { "url": "/slider/stratocustom/a.png", "title": "" },
-      { "url": "/slider/stratocustom/b.png", "title": "" },
-      { "url": "/slider/stratocustom/c.png", "title": "" },
-      { "url": "/slider/stratocustom/d.png", "title": "" },
-      { "url": "/slider/stratocustom/e.png", "title": "" },
-      { "url": "/slider/stratocustom/f.png", "title": "" },
-      { "url": "/slider/stratocustom/g.png", "title": "" }
+      { "url": "/slider/stratocustom/a.svg", "title": "" },
+      { "url": "/slider/stratocustom/b.svg", "title": "" },
+      { "url": "/slider/stratocustom/c.svg", "title": "" },
+      { "url": "/slider/stratocustom/d.svg", "title": "" },
+      { "url": "/slider/stratocustom/e.svg", "title": "" },
+      { "url": "/slider/stratocustom/f.svg", "title": "" },
+      { "url": "/slider/stratocustom/g.svg", "title": "" }
     ]
   },
   {
     "id": "16",
     "titulo": "Piccolina",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/piccolina.png",
+    "foto_de_portada": "/miniaturas/piccolina.svg",
     "galeria": [
-      { "url": "/slider/piccolina/a.png", "title": "" },
-      { "url": "/slider/piccolina/b.png", "title": "" },
-      { "url": "/slider/piccolina/c.png", "title": "" },
-      { "url": "/slider/piccolina/d.png", "title": "" },
-      { "url": "/slider/piccolina/e.png", "title": "" },
-      { "url": "/slider/piccolina/f.png", "title": "" },
-      { "url": "/slider/piccolina/g.png", "title": "" }
+      { "url": "/slider/piccolina/a.svg", "title": "" },
+      { "url": "/slider/piccolina/b.svg", "title": "" },
+      { "url": "/slider/piccolina/c.svg", "title": "" },
+      { "url": "/slider/piccolina/d.svg", "title": "" },
+      { "url": "/slider/piccolina/e.svg", "title": "" },
+      { "url": "/slider/piccolina/f.svg", "title": "" },
+      { "url": "/slider/piccolina/g.svg", "title": "" }
     ]
   },
   {
     "id": "17",
     "titulo": "Veneto",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/veneto.png",
+    "foto_de_portada": "/miniaturas/veneto.svg",
     "galeria": [
-      { "url": "/slider/veneto/a.png", "title": "" },
-      { "url": "/slider/veneto/b.png", "title": "" },
-      { "url": "/slider/veneto/c.png", "title": "" },
-      { "url": "/slider/veneto/d.png", "title": "" },
-      { "url": "/slider/veneto/e.png", "title": "" },
-      { "url": "/slider/veneto/f.png", "title": "" }
+      { "url": "/slider/veneto/a.svg", "title": "" },
+      { "url": "/slider/veneto/b.svg", "title": "" },
+      { "url": "/slider/veneto/c.svg", "title": "" },
+      { "url": "/slider/veneto/d.svg", "title": "" },
+      { "url": "/slider/veneto/e.svg", "title": "" },
+      { "url": "/slider/veneto/f.svg", "title": "" }
     ]
   },
   {
     "id": "18",
     "titulo": "Jazzmaster boutique",
     "descripcion": "",
-    "foto_de_portada": "/miniaturas/jazzmaster-boutique.png",
+    "foto_de_portada": "/miniaturas/jazzmaster-boutique.svg",
     "galeria": [
-      { "url": "/slider/jazzmasterboutique/a.png", "title": "" },
-      { "url": "/slider/jazzmasterboutique/b.png", "title": "" },
-      { "url": "/slider/jazzmasterboutique/c.png", "title": "" },
-      { "url": "/slider/jazzmasterboutique/d.png", "title": "" },
-      { "url": "/slider/jazzmasterboutique/e.png", "title": "" },
-      { "url": "/slider/jazzmasterboutique/f.png", "title": "" },
-      { "url": "/slider/jazzmasterboutique/f.png", "title": "" }
+      { "url": "/slider/jazzmasterboutique/a.svg", "title": "" },
+      { "url": "/slider/jazzmasterboutique/b.svg", "title": "" },
+      { "url": "/slider/jazzmasterboutique/c.svg", "title": "" },
+      { "url": "/slider/jazzmasterboutique/d.svg", "title": "" },
+      { "url": "/slider/jazzmasterboutique/e.svg", "title": "" },
+      { "url": "/slider/jazzmasterboutique/f.svg", "title": "" },
+      { "url": "/slider/jazzmasterboutique/f.svg", "title": "" }
     ]
   }
 ]

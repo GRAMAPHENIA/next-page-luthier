@@ -1,6 +1,6 @@
 import React from "react";
 import GuitarItem from "@/components/GuitarItem";
-import data from "../../data/data.json";
+import data from "@/data/data.json";
 
 import Image from "next/image";
 

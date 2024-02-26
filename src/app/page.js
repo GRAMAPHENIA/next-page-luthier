@@ -8,18 +8,20 @@ import Galeria from "@/components/Galeria.jsx";
 import Sobremi from "@/components/Sobremi.jsx";
 import Comentarios from "@/components/Comentarios.jsx";
 import Contactos from "@/components/Contactos.jsx";
+import EnConstruccion from "@/components/EnConstruccion";
 
 export default function Home() {
   return (
     <main>
-      <Header />
+      <EnConstruccion />
+      {/* <Header />
       <Body />
       <Instrumentos />
       <Reparaciones />
       <Galeria />
       <Sobremi />
       <Comentarios />
-      <Contactos />
+      <Contactos /> */}
     </main>
   );
 }

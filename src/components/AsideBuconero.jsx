@@ -1,5 +1,5 @@
 import Image from "next/image";
-import croquiBuconero from "@/public/croquis/velluto.png";
+import croquiVelluto from "@/public/croquis/aside-velluto.svg";
 
 export default function AsideBuconero() {
   return (
@@ -8,8 +8,8 @@ export default function AsideBuconero() {
         <Image
           width="150"
           height="auto"
-          src={croquiBuconero} 
-          alt="Foto de la guitarra Buconero"
+          src={croquiVelluto} 
+          alt="Foto de la guitarra Velluto"
           priority={true}
         />
       </figure>

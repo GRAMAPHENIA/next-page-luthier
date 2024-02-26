@@ -50,7 +50,7 @@ export default function NavegacionMenu() {
             <NavLink
               activeClasses="flex justify-center text-amber-100 px-4 py-2 bg-[#171c1f] rounded-full"
               text="Acerca de"
-              href="#sobremi"
+              href="/acerca-de"
             />
           </li>
           <li>

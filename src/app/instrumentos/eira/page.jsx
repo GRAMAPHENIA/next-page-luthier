@@ -1,7 +1,7 @@
 import Image from "next/image";
 import CroquiseiraVert from "@/public/croquis/guitarras-numeracion/eira-vert.svg";
 import CroquiseiraHorz from "@/public/croquis/guitarras-numeracion/eira-horz.svg";
-import eiraCuerpo from "@/public/guitarras/velluto.png";
+import eiraCuerpo from "@/public/guitarras/eira.svg";
 import Gotoh from "@/public/svgs/marcas/gotoh.svg";
 import Hosco from "@/public/svgs/marcas/hosco.svg";
 import Diliberto from "@/public/svgs/marcas/diliberto.svg";
@@ -83,13 +83,13 @@ export default function Buconero() {
             ))}
           </ol>
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-10 ">
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-2 ">
           <Image
             src={eiraCuerpo}
             alt="croquis eira numerado"
             width="auto"
             height="auto"
-            className="mx-auto h-[400px] w-auto"
+            className="mx-auto h-[500px]"
           />
         </figure>
         <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import CroquisvellutoVert from "@/public/croquis/guitarras-numeracion/velluto-vert.svg";
 import CroquisvellutoHorz from "@/public/croquis/guitarras-numeracion/velluto-horz.svg";
-import BuconeroCuerpo from "@/public/guitarras/velluto.png";
+import BuconeroCuerpo from "@/public/guitarras/velluto.svg";
 import Gotoh from "@/public/svgs/marcas/gotoh.svg";
 import Hosco from "@/public/svgs/marcas/hosco.svg";
 import Diliberto from "@/public/svgs/marcas/diliberto.svg";
@@ -55,7 +55,7 @@ export default function velluto() {
   return (
     <>
       <section className="grid my-2 grid-cols-4 row-span-4 lg:grid lg:grid-cols-8 gap-2 ">
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 p-10 lg:p-10">
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 p-10 lg:p-2">
           <Image
             src={CroquisvellutoVert}
             alt="croquis velluto numerado"

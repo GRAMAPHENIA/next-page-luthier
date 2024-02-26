@@ -1,7 +1,7 @@
 import Image from "next/image";
 import CroquisBuconeroVert from "@/public/croquis/guitarras-numeracion/buconero-vert.svg";
 import CroquisBuconeroHorz from "@/public/croquis/guitarras-numeracion/buconero-horz.svg";
-import BuconeroCuerpo from "@/public/guitarras/buconero.png";
+import BuconeroCuerpo from "@/public/guitarras/buconero.svg";
 import Gotoh from "@/public/svgs/marcas/gotoh.svg";
 import Hosco from "@/public/svgs/marcas/hosco.svg";
 import Diliberto from "@/public/svgs/marcas/diliberto.svg";
@@ -71,7 +71,7 @@ export default function Buconero() {
             className="hidden lg:block"
           />
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-5 p-10 lg:p-10">
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-5 p-10 lg:p-2">
           <ol className="space-y-2 text-sm lg:text-base">
             {lista.map((item, index) => (
               <li key={index}>

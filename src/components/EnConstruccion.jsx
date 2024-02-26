@@ -14,7 +14,7 @@ const EnConstruccion = () => {
             priority={true}
             className="bg-[#14181b] rounded-2xl p-20 border border-gray-700/70"
           ></Image>
-          <h1 className="uppercase text-gray-500 mt-10 font-serif">Próximamente</h1>
+          <h1 className="text-gray-500 mt-10 font-serif">Próximamente</h1>
         </figure>
       </section>
     </>

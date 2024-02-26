@@ -1,11 +1,11 @@
 import Image from "next/image";
-import tallerDos from "/public/taller/tallerdos.png";
-import tallerTres from "/public/taller/tallertres.png";
-import tallerCuatro from "/public/taller/tallercuatro.png";
-import tallerCinco from "/public/taller/tallercinco.png";
-import tallerSeis from "/public/taller/tallerseis.png";
-import tallerSiete from "/public/taller/tallersiete.png";
-import tallerOcho from "/public/taller/tallerocho.png";
+import tallerDos from "/public/taller/tallerdos.svg";
+import tallerTres from "/public/taller/tallertres.svg";
+import tallerCuatro from "/public/taller/tallercuatro.svg";
+import tallerCinco from "/public/taller/tallercinco.svg";
+import tallerSeis from "/public/taller/tallerseis.svg";
+import tallerSiete from "/public/taller/tallersiete.svg";
+import tallerOcho from "/public/taller/tallerocho.svg";
 
 export const metadata = {
   title: "El Taller",
@@ -18,7 +18,7 @@ export default function Taller() {
         <figure className="bg-[#14181b] rounded-2xl col-span-4 p-4 lg:p-4">
           <Image
             src={tallerDos}
-            alt="croquis buconero numerado"
+            alt="Imagen del taller de lutheria"
             width={1000}
             height={600}
             className="rounded-xl "
@@ -28,7 +28,7 @@ export default function Taller() {
         <figure className="bg-[#14181b] rounded-2xl col-span-2 flex justify-center align-middle p-4 lg:p-4">
           <Image
             src={tallerTres}
-            alt="croquis buconero numerado"
+            alt="Imagen del taller de lutheria"
             width={1000}
             height={600}
             className="rounded-xl object-fit"
@@ -38,7 +38,7 @@ export default function Taller() {
         <figure className="bg-[#14181b] rounded-2xl col-span-2 p-4 lg:p-4">
           <Image
             src={tallerCuatro}
-            alt="croquis buconero numerado"
+            alt="Imagen del taller de lutheria"
             width={1000}
             height={600}
             className="rounded-xl"
@@ -47,7 +47,7 @@ export default function Taller() {
         <figure className="bg-[#14181b] rounded-2xl col-span-2 p-4 lg:p-4">
           <Image
             src={tallerCinco}
-            alt="croquis buconero numerado"
+            alt="Imagen del taller de lutheria"
             width={1000}
             height={600}
             className="rounded-xl"
@@ -56,7 +56,7 @@ export default function Taller() {
         <figure className="bg-[#14181b] rounded-2xl col-span-2 p-4 lg:p-4">
           <Image
             src={tallerSeis}
-            alt="croquis buconero numerado"
+            alt="Imagen del taller de lutheria"
             width={1000}
             height={600}
             className="rounded-xl"
@@ -65,7 +65,7 @@ export default function Taller() {
         <figure className="bg-[#14181b] rounded-2xl col-span-2 lg:flex justify-center align-middle p-4 lg:p-4 hidden">
           <Image
             src={tallerSiete}
-            alt="croquis buconero numerado"
+            alt="Imagen del taller de lutheria"
             width={1000}
             height={600}
             className="rounded-xl"
@@ -74,7 +74,7 @@ export default function Taller() {
         <figure className="bg-[#14181b] rounded-2xl col-span-4 p-4 lg:p-4">
           <Image
             src={tallerOcho}
-            alt="croquis buconero numerado"
+            alt="Imagen del taller de lutheria"
             width={1000}
             height={600}
             className="rounded-xl "

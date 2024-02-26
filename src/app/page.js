@@ -13,15 +13,15 @@ import EnConstruccion from "@/components/EnConstruccion";
 export default function Home() {
   return (
     <main>
-      <EnConstruccion />
-      {/* <Header />
+      {/* <EnConstruccion /> */}
+      <Header />
       <Body />
       <Instrumentos />
       <Reparaciones />
       <Galeria />
       <Sobremi />
       <Comentarios />
-      <Contactos /> */}
+      <Contactos />
     </main>
   );
 }

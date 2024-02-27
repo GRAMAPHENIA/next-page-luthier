@@ -18,7 +18,7 @@ export default function AcercaDe() {
             año 2010 decido crear Di Corato instrumentos de cuerda pulsada.
           </p>
           <Image
-            width={300}
+            width={600}
             height={250}
             src={Esteban}
             alt="Logo"

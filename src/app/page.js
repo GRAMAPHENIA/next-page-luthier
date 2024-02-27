@@ -19,7 +19,7 @@ export default function Home() {
       <Instrumentos />
       <Reparaciones />
       <Galeria />
-      <Sobremi />
+      {/* <Sobremi /> */}
       <Comentarios />
       <Contactos />
     </main>

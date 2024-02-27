@@ -8,6 +8,9 @@ export default function Layout({ children }) {
       </section>
 
       <div>{children}</div>
+      <section>
+        {/* LOOSERS: Aca va el FOOTER */}
+      </section>
     </>
   );
 }

@@ -5,6 +5,10 @@ import BuconeroHorz from "@/public/croquis/buconero-horz.svg";
 import VellutoHorz from "@/public/croquis/velluto-horz.svg";
 import EiraHorz from "@/public/croquis/eira-horz.svg";
 
+import BuconeroTipografia from "@/public/instrumentos/buconero.svg";
+import VellutoTipografia from "@/public/instrumentos/velluto.svg";
+import EiraTipografia from "@/public/instrumentos/eira.svg";
+
 export const metadata = {
   title: "Instrumentos",
 };
@@ -14,7 +18,15 @@ export default function Buconero() {
     <>
       <section className="grid my-2 grid-cols-1 lg:grid lg:grid-cols-2 gap-2">
         <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
-          <p>Modelo Buconero</p>
+          {/* <p className=" text-3xl text-gray-400 font-thin">Modelo</p> */}
+          <Image
+            className="m-auto"
+            priority={true}
+            src={BuconeroTipografia}
+            alt="Fotografía de una guitarra, modelo Buconero. Diseñada y fabricada por Esteban M. Di corato."
+            width={300}
+            height={300}
+          />
         </figure>
         <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
           <Image
@@ -32,7 +44,15 @@ export default function Buconero() {
           </Link>
         </figure>
         <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
-          <p>Modelo Velluto</p>
+          {/* <p className=" text-3xl text-gray-400 font-thin">Modelo</p> */}
+          <Image
+            className="m-auto"
+            priority={true}
+            src={VellutoTipografia}
+            alt="Fotografía de una guitarra, modelo Buconero. Diseñada y fabricada por Esteban M. Di corato."
+            width={300}
+            height={300}
+          />
         </figure>
         <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
           <Image
@@ -50,7 +70,15 @@ export default function Buconero() {
           </Link>
         </figure>
         <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
-          <p>Modelo Eira</p>
+          {/* <p className=" text-3xl text-gray-400 font-thin">Modelo</p> */}
+          <Image
+            className="m-auto"
+            priority={true}
+            src={EiraTipografia}
+            alt="Fotografía de una guitarra, modelo Buconero. Diseñada y fabricada por Esteban M. Di corato."
+            width={200}
+            height={250}
+          />
         </figure>
         <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
           <Image

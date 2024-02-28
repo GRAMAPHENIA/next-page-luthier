@@ -15,7 +15,7 @@ export default function Testimonios({ testimonio }) {
                 width={35}
                 height={35}
                 src={testimonio.img}
-                alt="Croquis de guitarra buconero"
+                alt="Avatar del cliente"
                 priority={true}
                 className="rounded-full object-cover border-2 border-[var(--border-light)]"
               ></Image>
@@ -33,35 +33,35 @@ export default function Testimonios({ testimonio }) {
                 width={10}
                 height={10}
                 src={Estrella}
-                alt="Croquis de guitarra buconero"
+                alt="Avatar del cliente"
                 priority={true}
               ></Image>
               <Image
                 width={10}
                 height={10}
                 src={Estrella}
-                alt="Croquis de guitarra buconero"
+                alt="Avatar del cliente"
                 priority={true}
               ></Image>
               <Image
                 width={10}
                 height={10}
                 src={Estrella}
-                alt="Croquis de guitarra buconero"
+                alt="Avatar del cliente"
                 priority={true}
               ></Image>
               <Image
                 width={10}
                 height={10}
                 src={Estrella}
-                alt="Croquis de guitarra buconero"
+                alt="Avatar del cliente"
                 priority={true}
               ></Image>
               <Image
                 width={10}
                 height={10}
                 src={Estrella}
-                alt="Croquis de guitarra buconero"
+                alt="Avatar del cliente"
                 priority={true}
               ></Image>
             </div>

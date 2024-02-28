@@ -55,7 +55,7 @@ export default function velluto() {
   return (
     <>
       <section className="grid my-2 grid-cols-4 row-span-4 lg:grid lg:grid-cols-8 gap-2 ">
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 p-10 lg:p-2">
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 p-10 lg:p-10">
           <Image
             src={CroquisvellutoVert}
             alt="croquis velluto numerado"
@@ -83,44 +83,45 @@ export default function velluto() {
             ))}
           </ol>
         </figure>
+        
         <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-10 ">
           <Image
             src={BuconeroCuerpo}
             alt="croquis velluto numerado"
-            width="auto"
+            width={150}
             height="auto"
             className="mx-auto h-[400px] w-auto"
           />
         </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Diliberto}
             alt="croquis velluto numerado"
-            width="auto"
+            width={150}
             height="auto"
           />
         </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Gotoh}
             alt="croquis velluto numerado"
-            width="auto"
+            width={150}
             height="auto"
           />
         </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Hosco}
             alt="croquis velluto numerado"
-            width="auto"
+            width={150}
             height="auto"
           />
         </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Wilkinson}
             alt="croquis velluto numerado"
-            width="auto"
+            width={150}
             height="auto"
           />
         </figure>

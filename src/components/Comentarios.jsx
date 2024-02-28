@@ -42,26 +42,6 @@ const Comentarios = () => {
 
   return (
     <>
-      {/* <section
-        className="w-full grid lg:grid-cols-4 gap-2 "
-        id="contactos"
-      >
-        <figure className="flex flex-col align-middle justify-center  lg:col-start-1 lg:col-end-3 bg-[#14181b] rounded-2xl w-full">
-          <span className="text-center  text-2xl py-2 font-extralight text-[#7d8c9d]">
-            comentarios
-          </span>
-        </figure>
-        <aside className="flex flex-col align-middle justify-center lg:col-start-3 lg:col-end-5 bg-[#14181b] rounded-2xl w-full">
-          <Image
-            width={60}
-            height={60}
-            src={User}
-            alt="User"
-            priority={true}
-            className="mx-auto my-auto p-2"
-          ></Image>
-        </aside>
-      </section> */}
       <section className="w-full my-2 gap-2" id="comentarios">
         <figure className="flex flex-col align-middle justify-center px-8 py-8 bg-[#14181b] rounded-2xl w-full">
           <div className="mx-auto font-light text-amber-100">

@@ -83,6 +83,7 @@ export default function Buconero() {
             ))}
           </ol>
         </figure>
+
         <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-2 ">
           <Image
             src={eiraCuerpo}
@@ -92,36 +93,37 @@ export default function Buconero() {
             className="mx-auto h-[500px]"
           />
         </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
+
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Diliberto}
             alt="croquis eira numerado"
-            width="auto"
-            height="auto"
+            width={150}
+            height={150}
           />
         </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Gotoh}
             alt="croquis eira numerado"
             width="auto"
-            height="auto"
+            height={150}
           />
         </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Hosco}
             alt="croquis eira numerado"
             width="auto"
-            height="auto"
+            height={150}
           />
         </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Wilkinson}
             alt="croquis eira numerado"
             width="auto"
-            height="auto"
+            height={150}
           />
         </figure>
       </section>

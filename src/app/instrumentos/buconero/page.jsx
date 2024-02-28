@@ -20,23 +20,29 @@ export default function Buconero() {
       descripcion: "Cuerpo de caroba en una pieza.",
     },
     {
+      descripcion: "Mango laminado de jequetiva/ guatambú/viraro, perfil fino.",
+    },
+    {
+      descripcion: "Diapasón de ébano macasar, radio 20 .",
+    },
+    {
       descripcion: "24 trastes hosco 2.4 M.",
     },
     {
       descripcion: "Clavijas Gotoh.",
     },
     {
-      descripcion: "Diapasón de ébano macasar, radio 20 .",
+      descripcion: "Tensor doble acción termosellado.",
     },
     {
       descripcion:
         "Incrustación en traste 12 de ébano Gabón y resina fotoluminiscente.",
     },
     {
-      descripcion: "Mango laminado de jequetiva/ guatambú/viraro, perfil fino.",
+      descripcion: "Micrófonos Diliverto C9 special.",
     },
     {
-      descripcion: "Micrófonos Diliverto C9 special.",
+      descripcion: "Electrónica gotoh/swichcraft.",
     },
     {
       descripcion: "Perillas en madera.",
@@ -45,10 +51,7 @@ export default function Buconero() {
       descripcion: "Puente tremolo Wilkinson wvp.",
     },
     {
-      descripcion: "Tensor doble acción termosellado.",
-    },
-    {
-      descripcion: "Electrónica gotoh/swichcraft.",
+      descripcion: "Tapa de raiz de maple y resina epoxi",
     },
   ];
 
@@ -71,7 +74,7 @@ export default function Buconero() {
             className="hidden lg:block"
           />
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-5 p-10 lg:p-2">
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-5 p-10 lg:p-10">
           <ol className="space-y-2 text-sm lg:text-base">
             {lista.map((item, index) => (
               <li key={index}>
@@ -87,41 +90,41 @@ export default function Buconero() {
           <Image
             src={BuconeroCuerpo}
             alt="croquis buconero numerado"
-            width="auto"
-            height="auto"
-            className="mx-auto h-[400px] w-auto"
+            width={150}
+            height={150}
+            className="mx-auto h-[400px] w-auto lg:hover:scale-110 duration-200"
           />
         </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Diliberto}
             alt="croquis buconero numerado"
-            width="auto"
-            height="auto"
+            width={150}
+            height={150}
           />
         </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Gotoh}
             alt="croquis buconero numerado"
-            width="auto"
-            height="auto"
+            width={150}
+            height={150}
           />
         </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Hosco}
             alt="croquis buconero numerado"
-            width="auto"
-            height="auto"
+            width={150}
+            height={150}
           />
         </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2 p-5">
+        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Wilkinson}
             alt="croquis buconero numerado"
-            width="auto"
-            height="auto"
+            width={150}
+            height={150}
           />
         </figure>
       </section>

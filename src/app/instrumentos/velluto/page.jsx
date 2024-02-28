@@ -87,18 +87,19 @@ export default function velluto() {
         <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-10 ">
           <Image
             src={BuconeroCuerpo}
-            alt="croquis velluto numerado"
+            alt="croquis velluto numerado" 
             width={150}
-            height="auto"
+            height={150}
             className="mx-auto h-[400px] w-auto"
           />
         </figure>
+
         <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Diliberto}
             alt="croquis velluto numerado"
             width={150}
-            height="auto"
+            height={150}
           />
         </figure>
         <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
@@ -106,7 +107,7 @@ export default function velluto() {
             src={Gotoh}
             alt="croquis velluto numerado"
             width={150}
-            height="auto"
+            height={150}
           />
         </figure>
         <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
@@ -114,7 +115,7 @@ export default function velluto() {
             src={Hosco}
             alt="croquis velluto numerado"
             width={150}
-            height="auto"
+            height={150}
           />
         </figure>
         <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
@@ -122,7 +123,7 @@ export default function velluto() {
             src={Wilkinson}
             alt="croquis velluto numerado"
             width={150}
-            height="auto"
+            height={150}
           />
         </figure>
       </section>

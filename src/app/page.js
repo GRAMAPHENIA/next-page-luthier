@@ -20,8 +20,8 @@ export default function Home() {
       <Instrumentos />
       <Reparaciones />
       <Galeria />
-      <Contactos />
       <Comentarios />
+      <Contactos />
       <Footer />
     </main>
   );

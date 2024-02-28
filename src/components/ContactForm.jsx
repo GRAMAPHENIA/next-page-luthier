@@ -20,8 +20,12 @@ const ContactForm = () => {
   };
 
   return (
-    <form className="max-w-md mx-auto mt-8" onSubmit={handleSubmit}>
-      <p className="text-xl font-light mb-4">Envie su consulta</p>
+    <form className="max-w-md mx-auto my-8" onSubmit={handleSubmit}>
+      <p className="text-6xl font-light text-center my-10">
+        Envia
+        <br />
+        <span className="text-[#7d8c9d]">Tu Consulta</span>
+      </p>
 
       <div className="mb-4">
         <label
@@ -99,7 +103,7 @@ const ContactForm = () => {
 
       <button
         type="submit"
-        className="text-xl text-slate-300 text-center w-[150px] py-1 border-2 border-[#393c40] hover:bg-[#171c1f] hover:text-amber-100 rounded-full gap-2"
+        className="text-xl text-slate-300 text-center w-[150px] py-1 border-2 border-[#393c40] hover:bg-[#171c1f] hover:text-amber-100 rounded-full gap-2 mt-7"
       >
         Enviar
       </button>

@@ -14,41 +14,31 @@ export const metadata = {
 export default function Buconero() {
   const lista = [
     {
-      descripcion: "Acabado poliuretano mate y brillante.",
+      descripcion: "Pintura poliuretano brillante en cuerpo, mate en mango.",
     },
     {
-      descripcion: "Cuerpo de caroba en una pieza.",
+      descripcion: "Cuerpo de Lenga fueguina.",
     },
     {
-      descripcion: "24 trastes hosco 2.4 M.",
+      descripcion: "Mango de Maple, perfil C Moderdn.",
     },
     {
-      descripcion: "Clavijas Gotoh.",
+      descripcion: "Diapasón 22 Trastes M, radio 12.",
     },
     {
-      descripcion: "Diapasón de ébano macasar, radio 20 .",
+      descripcion: "Clavijas Locking.",
     },
     {
-      descripcion:
-        "Incrustación en traste 12 de ébano Gabón y resina fotoluminiscente.",
+      descripcion: "Microfonos DS Pick Ups PickGuard Tricapa Tortoise.",
     },
     {
-      descripcion: "Mango laminado de jequetiva/ guatambú/viraro, perfil fino.",
+      descripcion: "Electronica ICA Alfa. ",
     },
     {
-      descripcion: "Micrófonos Diliverto C9 special.",
+      descripcion: "Puente Wilkinson de 3 selletas compensadas.",
     },
     {
-      descripcion: "Perillas en madera.",
-    },
-    {
-      descripcion: "Puente tremolo Wilkinson wvp.",
-    },
-    {
-      descripcion: "Tensor doble acción termosellado.",
-    },
-    {
-      descripcion: "Electrónica gotoh/swichcraft.",
+      descripcion: "Maderas provistas por maderas Del Vigo.",
     },
   ];
 
@@ -88,9 +78,9 @@ export default function Buconero() {
           <Image
             src={eiraCuerpo}
             alt="croquis eira numerado"
-            width="auto"
-            height="auto"
-            className="mx-auto h-[500px]"
+            width={500}
+            height={500}
+            className="mx-auto lg:hover:scale-110 duration-200"
           />
         </figure>
 
@@ -106,7 +96,7 @@ export default function Buconero() {
           <Image
             src={Gotoh}
             alt="croquis eira numerado"
-            width="auto"
+            width={150}
             height={150}
           />
         </figure>
@@ -114,7 +104,7 @@ export default function Buconero() {
           <Image
             src={Hosco}
             alt="croquis eira numerado"
-            width="auto"
+            width={150}
             height={150}
           />
         </figure>
@@ -122,7 +112,7 @@ export default function Buconero() {
           <Image
             src={Wilkinson}
             alt="croquis eira numerado"
-            width="auto"
+            width={150}
             height={150}
           />
         </figure>

@@ -14,42 +14,45 @@ export const metadata = {
 export default function velluto() {
   const lista = [
     {
-      descripcion: "Acabado poliuretano mate y brillante.",
+      descripcion: "Terminacion Tahitian Moral Mate de Twang Factory",
     },
     {
-      descripcion: "Cuerpo de caroba en una pieza.",
+      descripcion: "Cuerpo de Okume.",
     },
     {
-      descripcion: "24 trastes hosco 2.4 M.",
+      descripcion: "Mango de Jequetiva.",
     },
     {
-      descripcion: "Clavijas Gotoh.",
+      descripcion: "Diapason de Guajubira.",
     },
     {
-      descripcion: "Diapasón de ébano macasar, radio 20 .",
+      descripcion: "Trastes Sintoms LTD 2.2 M",
     },
     {
-      descripcion:
-        "Incrustación en traste 12 de ébano Gabón y resina fotoluminiscente.",
-    },
-    {
-      descripcion: "Mango laminado de jequetiva/ guatambú/viraro, perfil fino.",
-    },
-    {
-      descripcion: "Micrófonos Diliverto C9 special.",
-    },
-    {
-      descripcion: "Perillas en madera.",
-    },
-    {
-      descripcion: "Puente tremolo Wilkinson wvp.",
+      descripcion: "Clavijas Gotoh Vintage 3+3",
     },
     {
       descripcion: "Tensor doble acción termosellado.",
     },
     {
-      descripcion: "Electrónica gotoh/swichcraft.",
+      descripcion: "Cejuela de grafito",
     },
+    {
+      descripcion: "Dots de Madreperla",
+    },
+    {
+      descripcion: "Microfonos Diliberto",
+    },
+    {
+      descripcion: "Electrónica Gotoh/Hosco",
+    },
+    {
+      descripcion: "Perillas metalicas con detelle en nacar",
+    },
+    {
+      descripcion: "Puente Tune-o-Matic Gotoh",
+    },
+    
   ];
 
   return (
@@ -83,14 +86,14 @@ export default function velluto() {
             ))}
           </ol>
         </figure>
-        
+
         <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-10 ">
           <Image
             src={BuconeroCuerpo}
-            alt="croquis velluto numerado" 
+            alt="croquis velluto numerado"
             width={150}
             height={150}
-            className="mx-auto h-[400px] w-auto"
+            className="mx-auto h-[400px] w-auto lg:hover:scale-110 duration-200"
           />
         </figure>
 

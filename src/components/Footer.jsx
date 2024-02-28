@@ -71,7 +71,7 @@ const Footer = () => {
           </div>
         ))}
       </footer>
-      <p className="text-center text-gray-600 pb-2">Página creada por <span className="hover:text-sky-500 cursor-pointer">conceptohexagono</span> </p>
+      <p className="text-center text-gray-600 pb-2">Página creada por <span className="text-sky-100 hover:text-sky-500 cursor-pointer">conceptohexagono</span> </p>
     </>
   );
 };

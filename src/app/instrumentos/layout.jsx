@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 
-import Contactos from "@/components/Contactos";
+// import Contactos from "@/components/Contactos";
 import Footer from "@/components/Footer";
 
 export default function Layout({ children }) {
@@ -11,7 +11,7 @@ export default function Layout({ children }) {
       </section>
 
       <div>{children}</div>
-      <Contactos />
+      {/* <Contactos /> */}
       <Footer />
     </>
   );

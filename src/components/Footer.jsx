@@ -1,53 +1,78 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import LogoApellido from "@/public/dicorato-logo-solo-apellido.svg";
+import LogoApellido from "@/public/logo.svg";
 
-const Items = [
+const sections = [
   {
-    title: "Inicio",
-    url: "/",
+    title: "Navegación",
+    links: [
+      { title: "Inicio", url: "/" },
+      { title: "Modelos", url: "/" },
+      { title: "Reparaciones", url: "/" },
+      { title: "Galeria", url: "/" },
+      { title: "Consultas", url: "/" },
+    ],
   },
+
   {
-    title: "Galeria",
-    url: "/",
+    title: "Servicios",
+    links: [
+      { title: "Presupuestos", url: "/" },
+      { title: "Construccion", url: "/" },
+      { title: "Reparacion", url: "/" },
+    ],
   },
-  {
-    title: "Taller",
-    url: "/",
-  },
-  {
-    title: "Contactor",
-    url: "/",
-  },
+
   {
     title: "Redes",
-    url: "/",
+    links: [
+      { title: "WhatsApp", url: "/" },
+      { title: "Instagram", url: "/" },
+      { title: "Facebook", url: "/" },
+      { title: "Youtube", url: "/" },
+      { title: "Email", url: "/" },
+    ],
   },
 ];
 
 const Footer = () => {
   return (
-    <footer className="grid grid-cols-4 bg-[#14181b] px-10 py-4 rounded-2xl mb-2">
-      <Image
-        className="ml-3"
-        src={LogoApellido}
-        alt="Logo de la marca con el apellido solamente"
-        width="auto"
-        height={40}
-        priority={true}
-      />
-      <h1 className="col-span-4 text-2xl px-10">Footer</h1>
-      <ul className="col-span-4 flex justify-around">
-        {Items.map((item, index) => (
-          <li key={index}>
-            <Link className="text-white" href={item.url}>
-              {item.title}
-            </Link>
-          </li>
-        ))} 
-      </ul>
-    </footer>
+    <>
+      <footer className="grid grid-cols-1 md:grid-cols-4 bg-[#14181b] px-10 rounded-2xl mb-4">
+        <div className="md:col-span-1 md:text-center">
+          <Image
+            className="mx-auto"
+            src={LogoApellido}
+            alt="Logo de la marca con el apellido solamente"
+            width="auto"
+            height={300}
+            priority={true}
+          />
+        </div>
+        {sections.map((section, index) => (
+          <div
+            key={index}
+            className="md:col-span-1 mx-auto text-center md:text-left my-10"
+          >
+            <h3 className="mb-5 text-2xl text-gray-300">{section.title}</h3>
+            <ul>
+              {section.links.map((link, linkIndex) => (
+                <li key={linkIndex}>
+                  <Link
+                    className="text-gray-400 hover:text-amber-100 font-light"
+                    href={link.url}
+                  >
+                    {link.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </footer>
+      <p className="text-center text-gray-600 pb-2">Página creada por <span className="hover:text-sky-500 cursor-pointer">conceptohexagono</span> </p>
+    </>
   );
 };
 

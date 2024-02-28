@@ -1,5 +1,8 @@
 import Header from "@/components/Header";
 
+import Contactos from "@/components/Contactos";
+import Footer from "@/components/Footer";
+
 export default function Layout({ children }) {
   return (
     <>
@@ -8,6 +11,8 @@ export default function Layout({ children }) {
       </section>
 
       <div>{children}</div>
+      <Contactos />
+      <Footer />
     </>
   );
 }

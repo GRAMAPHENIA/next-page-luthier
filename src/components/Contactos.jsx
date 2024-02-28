@@ -55,8 +55,8 @@ export default function BodyBuconero() {
         <figure className="flex flex-col align-middle justify-center p-4 lg:col-start-1 lg:col-end-5 bg-[#14181b] rounded-2xl w-full">
           <ContactForm />
         </figure>
-        {/* <aside className="flex flex-col align-middle justify-center p-4 lg:col-start-4 lg:col-end-5 bg-[#14181b] rounded-2xl w-full"></aside> */}
-      </section>
+        {/* <aside className="flex flex-col align-middle justify-center p-4 lg:col-span-6 bg-[#14181b] rounded-2xl w-full"></aside> */}
+      </section> 
     </>
   );
 }

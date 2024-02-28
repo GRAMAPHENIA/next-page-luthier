@@ -42,7 +42,7 @@ const Comentarios = () => {
 
   return (
     <>
-      <section
+      {/* <section
         className="w-full grid lg:grid-cols-4 gap-2 "
         id="contactos"
       >
@@ -61,7 +61,7 @@ const Comentarios = () => {
             className="mx-auto my-auto p-2"
           ></Image>
         </aside>
-      </section>
+      </section> */}
       <section className="w-full my-2 gap-2" id="comentarios">
         <figure className="flex flex-col align-middle justify-center px-8 py-8 bg-[#14181b] rounded-2xl w-full">
           <div className="mx-auto font-light text-amber-100">

@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function Layout({ children }) {
   return (
@@ -10,6 +11,7 @@ export default function Layout({ children }) {
       <div>{children}</div>
       <section>
         {/* LOOSERS: Aca va el FOOTER */}
+        <Footer />
       </section>
     </>
   );

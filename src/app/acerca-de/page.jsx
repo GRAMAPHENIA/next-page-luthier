@@ -1,12 +1,13 @@
 import Image from "next/image";
 import CroquisBuconero from "/public/croquis/croquis-buconero-numerado.png";
 import Esteban from "/public/croquis/esteban.svg";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Acerca de",
 };
 
-export default function AcercaDe() { 
+export default function AcercaDe() {
   return (
     <>
       <section className="w-full grid lg:grid-cols-4 my-2 gap-2 " id="sobremi">
@@ -27,6 +28,7 @@ export default function AcercaDe() {
           ></Image>
         </figure>
       </section>
+      <Footer />
     </>
   );
 }

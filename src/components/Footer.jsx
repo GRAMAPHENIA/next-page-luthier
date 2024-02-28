@@ -11,7 +11,6 @@ const sections = [
       { title: "Modelos", url: "/" },
       { title: "Reparaciones", url: "/" },
       { title: "Galeria", url: "/" },
-      { title: "Consultas", url: "/" },
     ],
   },
 
@@ -71,7 +70,13 @@ const Footer = () => {
           </div>
         ))}
       </footer>
-      <p className="text-center text-gray-600 pb-2">Página creada por <span className="text-sky-100 hover:text-sky-500 cursor-pointer">conceptohexagono</span> </p>
+      <p className="text-center text-gray-600 pb-2 font-light">
+        Página creada con <span className="text-xl text-gray-400">⌨</span> por{" "}
+        <span className="text-gray-400 hover:text-sky-300 cursor-pointer">
+          {" "}
+          conceptohexagono<span className="text-amber-300">.</span>
+        </span>{" "}
+      </p>
     </>
   );
 };

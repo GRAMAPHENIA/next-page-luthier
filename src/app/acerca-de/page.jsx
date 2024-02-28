@@ -1,7 +1,6 @@
 import Image from "next/image";
 import CroquisBuconero from "/public/croquis/croquis-buconero-numerado.png";
 import Esteban from "/public/croquis/esteban.svg";
-import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Acerca de",
@@ -28,7 +27,6 @@ export default function AcercaDe() {
           ></Image>
         </figure>
       </section>
-      <Footer />
     </>
   );
 }

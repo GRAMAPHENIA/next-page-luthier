@@ -1,5 +1,7 @@
 import Header from "@/components/Header";
+
 import Footer from "@/components/Footer";
+import Contactos from "@/components/Contactos";
 
 export default function Layout({ children }) {
   return (
@@ -9,7 +11,7 @@ export default function Layout({ children }) {
       </section>
 
       <div>{children}</div>
-
+      <Contactos />
       <Footer />
     </>
   );

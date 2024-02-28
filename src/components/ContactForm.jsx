@@ -21,7 +21,7 @@ const ContactForm = () => {
 
   return (
     <form className="max-w-md mx-auto my-8" onSubmit={handleSubmit}>
-      <p className="text-6xl font-light text-center my-10">
+      <p className="text-4xl lg:text-6xl font-light text-center my-10">
         Envia
         <br />
         <span className="text-[#7d8c9d]">Tu Consulta</span>

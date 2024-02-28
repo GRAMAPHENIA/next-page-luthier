@@ -70,7 +70,6 @@ export default function Buconero() {
           </Link>
         </figure>
         <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
-          {/* <p className=" text-3xl text-gray-400 font-thin">Modelo</p> */}
           <Image
             className="m-auto"
             priority={true}

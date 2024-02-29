@@ -1,11 +1,17 @@
 import Image from "next/image";
+
 import CroquisBuconeroVert from "@/public/croquis/guitarras-numeracion/buconero-vert.svg";
 import CroquisBuconeroHorz from "@/public/croquis/guitarras-numeracion/buconero-horz.svg";
+
 import BuconeroCuerpo from "@/public/guitarras/buconero.svg";
+
 import Gotoh from "@/public/svgs/marcas/gotoh.svg";
 import Hosco from "@/public/svgs/marcas/hosco.svg";
 import Diliberto from "@/public/svgs/marcas/diliberto.svg";
 import Wilkinson from "@/public/svgs/marcas/wilkinson.svg";
+
+import HeaderInstrumentos from "@/app/instrumentos/components/HeaderInstrumentos";
+import HeaderMarcas from "@/app/instrumentos/components/HeaderMarcas";
 
 export const metadata = {
   title: "Modelo Buconero",
@@ -61,19 +67,24 @@ export default function Buconero() {
         <figure className="relative bg-[#14181b] rounded-2xl col-span-8 p-10 lg:p-10">
           <Image
             src={CroquisBuconeroVert}
-            alt="croquis buconero numerado"
+            alt="Logo de marca"
             width="auto"
             height="auto"
             className="mx-auto h-[600px] lg:hidden"
           />
           <Image
             src={CroquisBuconeroHorz}
-            alt="croquis buconero numerado"
+            alt="Logo de marca"
             width="auto"
             height="auto"
             className="hidden lg:block"
           />
         </figure>
+
+        <section className="col-span-8">
+          <HeaderMarcas />
+        </section>
+
         <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-5 p-10 lg:p-10">
           <ol className="space-y-2 text-sm lg:text-base">
             {lista.map((item, index) => (
@@ -89,44 +100,15 @@ export default function Buconero() {
         <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-10 ">
           <Image
             src={BuconeroCuerpo}
-            alt="croquis buconero numerado"
+            alt="Logo de marca"
             width={150}
             height={150}
             className="mx-auto h-[400px] w-auto lg:hover:scale-110 duration-200"
           />
         </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
-          <Image
-            src={Diliberto}
-            alt="croquis buconero numerado"
-            width={150}
-            height={150}
-          />
-        </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
-          <Image
-            src={Gotoh}
-            alt="croquis buconero numerado"
-            width={150}
-            height={150}
-          />
-        </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
-          <Image
-            src={Hosco}
-            alt="croquis buconero numerado"
-            width={150}
-            height={150}
-          />
-        </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
-          <Image
-            src={Wilkinson}
-            alt="croquis buconero numerado"
-            width={150}
-            height={150}
-          />
-        </figure>
+      </section>
+      <section className="mb-2">
+        <HeaderInstrumentos />
       </section>
     </>
   );

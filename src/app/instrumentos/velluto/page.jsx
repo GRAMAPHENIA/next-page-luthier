@@ -7,6 +7,8 @@ import Hosco from "@/public/svgs/marcas/hosco.svg";
 import Diliberto from "@/public/svgs/marcas/diliberto.svg";
 import Wilkinson from "@/public/svgs/marcas/wilkinson.svg";
 
+import HeaderInstrumentos from "@/app/instrumentos/components/HeaderInstrumentos";
+
 export const metadata = {
   title: "Modelo Velluto",
 };
@@ -52,7 +54,6 @@ export default function velluto() {
     {
       descripcion: "Puente Tune-o-Matic Gotoh",
     },
-    
   ];
 
   return (
@@ -129,6 +130,9 @@ export default function velluto() {
             height={150}
           />
         </figure>
+      </section>
+      <section className="mb-2">
+        <HeaderInstrumentos />
       </section>
     </>
   );

@@ -7,6 +7,8 @@ import Hosco from "@/public/svgs/marcas/hosco.svg";
 import Diliberto from "@/public/svgs/marcas/diliberto.svg";
 import Wilkinson from "@/public/svgs/marcas/wilkinson.svg";
 
+import HeaderInstrumentos from "@/app/instrumentos/components/HeaderInstrumentos";
+
 export const metadata = {
   title: "Modelo eira",
 };
@@ -74,13 +76,13 @@ export default function Buconero() {
           </ol>
         </figure>
 
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-2 ">
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-10 ">
           <Image
             src={eiraCuerpo}
             alt="croquis eira numerado"
-            width={500}
-            height={500}
-            className="mx-auto lg:hover:scale-110 duration-200"
+            width={150}
+            height={150}
+            className="mx-auto h-[400px] w-auto lg:hover:scale-110 duration-200"
           />
         </figure>
 
@@ -117,6 +119,7 @@ export default function Buconero() {
           />
         </figure>
       </section>
+      <section className="mb-2"><HeaderInstrumentos /></section>
     </>
   );
 }

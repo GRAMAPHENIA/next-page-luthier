@@ -20,7 +20,7 @@ export default function AcercaDe() {
             priority={true}
             className="lg:px-4 pb-4"
           ></Image>
-          <p className="text-center lg:text-2xl font-extralight text-[#7d8c9d] mb-10  lg:mx-40 ">
+          <p className="text-center lg:text-2xl font-extralight text-[#7d8c9d] mb-10 lg:mx-40">
             A mediados de la década de los 90 me surge la intriga de comenzar la
             construcción de guitarras y bajos, y capacitándome de varias maneras
             logro afianzarme en conocimientos y experiencia. Es así que en el

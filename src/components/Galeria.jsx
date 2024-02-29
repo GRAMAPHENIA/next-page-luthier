@@ -3,7 +3,7 @@ import PresentacionBuconero from "@/components/PresentacionBuconero";
 
 export default function BodyBuconero() {
   return (
-    <section className="w-full grid lg:grid-cols-4 my-2 gap-2">
+    <section id="galeria" className="w-full grid lg:grid-cols-4 my-2 gap-2">
       <aside className=" lg:col-start-1 lg:col-end-2 bg-[#14181b] rounded-2xl">
         <AsideBuconero />
       </aside>

@@ -8,18 +8,18 @@ const sections = [
     title: "Navegación",
     links: [
       { title: "Inicio", url: "/" },
-      { title: "Modelos", url: "/" },
-      { title: "Reparaciones", url: "/" },
-      { title: "Galeria", url: "/" },
+      { title: "Modelos", url: "/#modelos" },
+      { title: "Galeria", url: "/#galeria" },
+      { title: "Contacto", url: "/#contacto" },
     ],
   },
 
   {
     title: "Servicios",
     links: [
-      { title: "Presupuestos", url: "/" },
+      // { title: "Presupuestos", url: "/#formulario" },
       { title: "Construccion", url: "/" },
-      { title: "Reparacion", url: "/" },
+      { title: "Reparacion", url: "/#reparaciones" },
     ],
   },
 
@@ -73,9 +73,13 @@ const Footer = () => {
       <p className="text-center text-gray-600 pb-2 font-light">
         Página creada con <span className="text-xl text-gray-400">⌨</span> por{" "}
         <span className="text-gray-400 hover:text-sky-300 cursor-pointer">
-          {" "}
-          conceptohexagono<span className="text-amber-300">.</span>
-        </span>{" "}
+          <Link
+            className="text-gray-400 hover:text-sky-400 font-light"
+            href="https://www.conceptohexagono.com"
+          >
+            conceptohexagono<span className="text-sky-400">.</span>
+          </Link>
+        </span>
       </p>
     </>
   );

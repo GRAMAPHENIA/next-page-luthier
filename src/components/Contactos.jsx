@@ -13,7 +13,10 @@ import Pua from "@/public/pua.svg";
 export default function BodyBuconero() {
   return (
     <>
-      <section className="grid grid-cols-3 lg:grid-cols-6 w-full gap-2 text-center">
+      <section
+        id="contacto"
+        className="grid grid-cols-3 lg:grid-cols-6 w-full gap-2 text-center"
+      >
         <Link
           href="https://www.instagram.com/di_corato_luthier/"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#1a2024] hover:text-amber-100"
@@ -56,7 +59,7 @@ export default function BodyBuconero() {
           <ContactForm />
         </figure>
         {/* <aside className="flex flex-col align-middle justify-center p-4 lg:col-span-6 bg-[#14181b] rounded-2xl w-full"></aside> */}
-      </section> 
+      </section>
     </>
   );
 }

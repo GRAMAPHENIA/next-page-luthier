@@ -37,9 +37,12 @@ const HeaderInstrumentos = () => {
         {instrumentos.map((instrumento) => (
           <figure
             key={instrumento.nombre}
-            className="flex justify-center align-middle col-span-1 bg-[#14181b] rounded-2xl lg:rounded-full p-4"
+            className="flex justify-center align-middle col-span-1 bg-[#14181b] rounded-xl lg:rounded-full p-4"
           >
-            <Link className="flex justify-center align-middle" href={instrumento.href}>
+            <Link
+              className="flex justify-center align-middle"
+              href={instrumento.href}
+            >
               <Image
                 priority={true}
                 src={instrumento.imagen}

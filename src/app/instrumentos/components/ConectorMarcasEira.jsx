@@ -22,10 +22,10 @@ const marcas = [
     href: "/",
   },
   {
-    src: require("@/public/svgs/marcas/wilkinson.svg"),
-    alt: "Logo de marca Wilkinson",
-    id: "wilkinson",
-    href: "https://wilkinsondirect.com/",
+    src: require("@/public/svgs/marcas/dspickups.svg"),
+    alt: "Logo de marca DS Pickups",
+    id: "ds",
+    href: "https://www.dspickups.com.ar/",
   },
 ];
 
@@ -34,7 +34,7 @@ const ConectorMarcasEira = () => {
     <section className="grid grid-cols-4 gap-2">
       {marcas.map((marca) => (
         <Link key={marca.id} href={marca.href}>
-          <figure className="relative flex justify-center bg-[#14181b] rounded-2xl lg:rounded-full">
+          <figure className="relative flex justify-center bg-[#14181b] hover:bg-[#171c20]  rounded-2xl lg:rounded-full">
             <Image src={marca.src} alt={marca.alt} width={100} height={100} />
           </figure>
         </Link>

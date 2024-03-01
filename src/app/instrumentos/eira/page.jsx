@@ -8,6 +8,7 @@ import Diliberto from "@/public/svgs/marcas/diliberto.svg";
 import Wilkinson from "@/public/svgs/marcas/wilkinson.svg";
 
 import HeaderInstrumentos from "@/app/instrumentos/components/HeaderInstrumentos";
+import ConectorMarcasEira from "@/app/instrumentos/components/ConectorMarcasEira";
 
 export const metadata = {
   title: "Modelo eira",
@@ -63,6 +64,9 @@ export default function Buconero() {
             className="hidden lg:block"
           />
         </figure>
+        <section className="col-span-8">
+          <ConectorMarcasEira />
+        </section>
         <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-5 p-10 lg:p-10">
           <ol className="space-y-2 text-sm lg:text-base">
             {lista.map((item, index) => (
@@ -86,7 +90,7 @@ export default function Buconero() {
           />
         </figure>
 
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
+        {/* <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
           <Image
             src={Diliberto}
             alt="croquis eira numerado"
@@ -117,9 +121,11 @@ export default function Buconero() {
             width={150}
             height={150}
           />
-        </figure>
+        </figure> */}
       </section>
-      <section className="mb-2"><HeaderInstrumentos /></section>
+      <section className="mb-2">
+        <HeaderInstrumentos />
+      </section>
     </>
   );
 }

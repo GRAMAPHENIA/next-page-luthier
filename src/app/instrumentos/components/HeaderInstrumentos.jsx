@@ -6,54 +6,50 @@ import BuconeroTipografia from "@/public/instrumentos/buconero.svg";
 import VellutoTipografia from "@/public/instrumentos/velluto.svg";
 import EiraTipografia from "@/public/instrumentos/eira.svg";
 
+const instrumentos = [
+  {
+    nombre: "Buconero",
+    imagen: BuconeroTipografia,
+    href: "/instrumentos/buconero",
+    width: 150,
+    height: 150,
+  },
+  {
+    nombre: "Velluto",
+    imagen: VellutoTipografia,
+    href: "/instrumentos/velluto",
+    width: 150,
+    height: 150,
+  },
+  {
+    nombre: "Eira",
+    imagen: EiraTipografia,
+    href: "/instrumentos/eira",
+    width: 100,
+    height: 100,
+  },
+];
+
 const HeaderInstrumentos = () => {
   return (
     <>
       <section className="grid grid-cols-3 mt-2 gap-x-2">
-        <figure className="flex justify-center align-middle col-span-1 bg-[#14181b] rounded-full p-4">
-          <Link
-            className="flex justify-center align-middle"
-            href="/instrumentos/buconero"
+        {instrumentos.map((instrumento) => (
+          <figure
+            key={instrumento.nombre}
+            className="flex justify-center align-middle col-span-1 bg-[#14181b] rounded-2xl lg:rounded-full p-4"
           >
-            <Image
-              priority={true}
-              src={BuconeroTipografia}
-              alt="Fotografía de una guitarra, modelo Buconero. Diseñada y fabricada por Esteban M. Di corato."
-              width={150}
-              height={150}
-            />
-          </Link>
-        </figure>
-        <figure className="flex justify-center align-middle col-span-1 bg-[#14181b] rounded-full p-4">
-          <Link
-            className="flex justify-center align-middle"
-            href="/instrumentos/velluto"
-          >
-            <Image
-              className="m-auto"
-              priority={true}
-              src={VellutoTipografia}
-              alt="Fotografía de una guitarra, modelo Buconero. Diseñada y fabricada por Esteban M. Di corato."
-              width={150}
-              height={150}
-            />
-          </Link>
-        </figure>
-        <figure className="flex justify-center align-middle col-span-1 bg-[#14181b] rounded-full p-4">
-          <Link
-            className="flex justify-center align-middle"
-            href="/instrumentos/eira"
-          >
-            <Image
-              className="m-auto"
-              priority={true}
-              src={EiraTipografia}
-              alt="Fotografía de una guitarra, modelo Buconero. Diseñada y fabricada por Esteban M. Di corato."
-              width={100}
-              height={100}
-            />
-          </Link>
-        </figure>
+            <Link className="flex justify-center align-middle" href={instrumento.href}>
+              <Image
+                priority={true}
+                src={instrumento.imagen}
+                alt={`Fotografía de una guitarra, modelo ${instrumento.nombre}. Diseñada y fabricada por Esteban M. Di corato.`}
+                width={instrumento.width}
+                height={instrumento.height}
+              />
+            </Link>
+          </figure>
+        ))}
       </section>
     </>
   );

@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-// Array de marcas con sus datos
 const marcas = [
   {
     src: require("@/public/svgs/marcas/diliberto.svg"),
@@ -30,12 +29,12 @@ const marcas = [
   },
 ];
 
-const HeaderMarcas = () => {
+const ConectorMarcasBuconero = () => {
   return (
     <section className="grid grid-cols-4 gap-2">
       {marcas.map((marca) => (
         <Link key={marca.id} href={marca.href}>
-          <figure className="relative flex justify-center bg-[#14181b] rounded-full">
+          <figure className="relative flex justify-center bg-[#14181b] rounded-2xl lg:rounded-full">
             <Image src={marca.src} alt={marca.alt} width={100} height={100} />
           </figure>
         </Link>
@@ -44,4 +43,4 @@ const HeaderMarcas = () => {
   );
 };
 
-export default HeaderMarcas;
+export default ConectorMarcasBuconero;

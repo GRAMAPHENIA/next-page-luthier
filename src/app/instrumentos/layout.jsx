@@ -7,9 +7,7 @@ export default function Layout({ children }) {
       <section className="mt-2">
         <Header />
       </section>
-
       <div>{children}</div>
-
       <Footer />
     </>
   );

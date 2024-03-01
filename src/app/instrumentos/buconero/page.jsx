@@ -11,7 +11,7 @@ import Diliberto from "@/public/svgs/marcas/diliberto.svg";
 import Wilkinson from "@/public/svgs/marcas/wilkinson.svg";
 
 import HeaderInstrumentos from "@/app/instrumentos/components/HeaderInstrumentos";
-import HeaderMarcas from "@/app/instrumentos/components/HeaderMarcas";
+import ConectorMarcasBuconero from "@/app/instrumentos/components/ConectorMarcasBuconero";
 
 export const metadata = {
   title: "Modelo Buconero",
@@ -82,7 +82,7 @@ export default function Buconero() {
         </figure>
 
         <section className="col-span-8">
-          <HeaderMarcas />
+          <ConectorMarcasBuconero />
         </section>
 
         <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-5 p-10 lg:p-10">

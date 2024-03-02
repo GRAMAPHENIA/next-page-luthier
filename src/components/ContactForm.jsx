@@ -1,37 +1,40 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
+import submitAction from "@/actions/submitAction.js";
+import { useFormState, useFormStatus } from "react-dom";
 
 const ContactForm = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [message, setMessage] = useState("");
+  const [state, action] = useFormState(submitAction, { message: "" });
+  const { pending } = useFormStatus();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Lógica para enviar el formulario (puedes implementar aquí la llamada a la API, etc.)
-    console.log("Formulario enviado:", { name, email, phone, message });
-    // Puedes resetear los estados después de enviar el formulario si es necesario.
-    setName("");
-    setEmail("");
-    setPhone("");
-    setMessage("");
+  const [formSubmitted, setFormSubmitted] = useState(false);
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const newState = await submitAction(state, {});
+    action(newState);
+    setFormSubmitted(true);
+    setShowSuccessMessage(true);
+    setTimeout(() => setShowSuccessMessage(false), 4000);
+
+    // Limpiar los campos del formulario después de enviarlo
+    event.target.reset();
   };
 
   return (
-    <form
-      className="max-w-md mx-auto my-8"
-      onSubmit={handleSubmit}
-      action="https://formsubmit.co/dicoratoluthier@gmail.com"
-      method="POST"
-    >
-      <p className="text-4xl lg:text-6xl font-light text-center my-10">
+    <form onSubmit={handleSubmit} className="max-w-md mx-auto my-8">
+      {formSubmitted && showSuccessMessage && (
+        <div className="bg-green-200/10 text-white text-center p-2 rounded">
+          <span className="mr-2"><span className="text-emerald-400">&#10003;</span></span>El formulario se ha enviado con
+          éxito
+        </div>
+      )}
+      <p className="flex flex-col text-8xl lg:text-8xl font-light text-center my-10">
         Envia
-        <br />
-        <span className="text-[#7d8c9d]">Tu Consulta</span>
+        <span className="text-4xl text-[#7d8c9d]">Tu Consulta</span>
       </p>
-
       <div className="mb-4">
         <label
           className="block text-[var(--text-light)] text-sm font-light mb-2"
@@ -43,13 +46,10 @@ const ContactForm = () => {
           type="text"
           id="name"
           name="name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
           className="w-full p-2 border border-[#393c40] rounded bg-[#171c1f] text-white"
           required
         />
       </div>
-
       <div className="mb-4 flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:pr-2">
           <label
@@ -62,14 +62,11 @@ const ContactForm = () => {
             type="email"
             id="email"
             name="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
             className="w-full p-2 border border-[#393c40] rounded bg-[#171c1f] text-white"
             required
           />
         </div>
-
-        <div className="w-full lg:w-1/2 lg:pl-2">
+        <div className="w-full lg:w-1/2 lg:pl-2 mt-4">
           <label
             className="block text-[var(--text-light)] text-sm font-light mb-2"
             htmlFor="phone"
@@ -80,13 +77,10 @@ const ContactForm = () => {
             type="tel"
             id="phone"
             name="phone"
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
             className="w-full p-2 border border-[#393c40] rounded bg-[#171c1f] text-white"
           />
         </div>
       </div>
-
       <div className="mb-4">
         <label
           className="block text-[var(--text-light)] text-sm font-light mb-2"
@@ -97,17 +91,15 @@ const ContactForm = () => {
         <textarea
           id="message"
           name="message"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
           className="w-full p-2 border border-[#393c40] rounded bg-[#171c1f] text-white"
           rows="4"
           maxLength="300"
           required
         ></textarea>
       </div>
-
       <button
         type="submit"
+        disabled={pending}
         className="text-xl text-slate-300 text-center w-[150px] py-1 border-2 border-[#393c40] hover:bg-[#171c1f] hover:text-amber-100 rounded-full gap-2 mt-7"
       >
         Enviar

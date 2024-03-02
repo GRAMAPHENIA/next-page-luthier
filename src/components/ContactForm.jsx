@@ -20,7 +20,12 @@ const ContactForm = () => {
   };
 
   return (
-    <form className="max-w-md mx-auto my-8" onSubmit={handleSubmit}>
+    <form
+      className="max-w-md mx-auto my-8"
+      onSubmit={handleSubmit}
+      action="https://formsubmit.co/dicoratoluthier@gmail.com"
+      method="POST"
+    >
       <p className="text-4xl lg:text-6xl font-light text-center my-10">
         Envia
         <br />

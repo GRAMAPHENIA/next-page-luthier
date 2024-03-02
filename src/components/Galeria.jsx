@@ -9,7 +9,7 @@ export default function BodyBuconero() {
       </aside>
       <figure className="flex flex-col align-middle justify-center p-4 lg:col-start-2 lg:col-end-5 bg-[#14181b] rounded-2xl w-full">
         <PresentacionBuconero />
-      </figure>
+      </figure> 
     </section>
   );
 }

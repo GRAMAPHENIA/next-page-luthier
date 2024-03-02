@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import LogoApellido from "/public/croquis/herramientas.svg";
 
-export default function Reparaciones() {
+export default function Reparaciones() { 
   return (
     <>
       <section id="reparaciones" className="w-full grid lg:grid-cols-4 my-2 gap-2">

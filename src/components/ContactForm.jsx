@@ -66,7 +66,7 @@ const ContactForm = () => {
             required
           />
         </div>
-        <div className="w-full lg:w-1/2 lg:pl-2 mt-4">
+        <div className="w-full lg:w-1/2 lg:pl-2 mt-4 lg:mt-0">
           <label
             className="block text-[var(--text-light)] text-sm font-light mb-2"
             htmlFor="phone"

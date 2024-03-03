@@ -1,40 +1,12 @@
-"use client";
-
-import React, { useState } from "react";
-import submitAction from "@/actions/submitAction.js";
-import { useFormState, useFormStatus } from "react-dom";
-
 const ContactForm = () => {
-  const [state, action] = useFormState(submitAction, { message: "" });
-  const { pending } = useFormStatus();
-
-  const [formSubmitted, setFormSubmitted] = useState(false);
-  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
-
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    const newState = await submitAction(state, {});
-    action(newState);
-    setFormSubmitted(true);
-    setShowSuccessMessage(true);
-    setTimeout(() => setShowSuccessMessage(false), 4000);
-
-    // Limpiar los campos del formulario después de enviarlo
-    event.target.reset();
-  };
-
   return (
-    <form onSubmit={handleSubmit} className="max-w-md mx-auto my-8">
-      {formSubmitted && showSuccessMessage && (
-        <div className="bg-green-200/10 text-white text-center p-2 rounded">
-          <span className="mr-2"><span className="text-emerald-400">&#10003;</span></span>El formulario se ha enviado con
-          éxito
-        </div>
-      )}
-      <p className="flex flex-col text-8xl lg:text-8xl font-light text-center my-10">
+    <form method="POST" className="max-w-md mx-auto my-8">
+      <p className="text-4xl lg:text-6xl font-light text-center my-10">
         Envia
-        <span className="text-4xl text-[#7d8c9d]">Tu Consulta</span>
+        <br />
+        <span className="text-[#7d8c9d]">Tu Consulta</span>
       </p>
+
       <div className="mb-4">
         <label
           className="block text-[var(--text-light)] text-sm font-light mb-2"
@@ -50,6 +22,7 @@ const ContactForm = () => {
           required
         />
       </div>
+
       <div className="mb-4 flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:pr-2">
           <label
@@ -66,7 +39,8 @@ const ContactForm = () => {
             required
           />
         </div>
-        <div className="w-full lg:w-1/2 lg:pl-2 mt-4 lg:mt-0">
+
+        <div className="w-full lg:w-1/2 lg:pl-2">
           <label
             className="block text-[var(--text-light)] text-sm font-light mb-2"
             htmlFor="phone"
@@ -81,6 +55,7 @@ const ContactForm = () => {
           />
         </div>
       </div>
+
       <div className="mb-4">
         <label
           className="block text-[var(--text-light)] text-sm font-light mb-2"
@@ -97,9 +72,9 @@ const ContactForm = () => {
           required
         ></textarea>
       </div>
+
       <button
         type="submit"
-        disabled={pending}
         className="text-xl text-slate-300 text-center w-[150px] py-1 border-2 border-[#393c40] hover:bg-[#171c1f] hover:text-amber-100 rounded-full gap-2 mt-7"
       >
         Enviar

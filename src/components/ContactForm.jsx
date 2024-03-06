@@ -30,6 +30,27 @@ const ContactForm = () => {
     }
   };
 
+  useEffect(() => {
+    const components = document.querySelectorAll(".fade-in");
+    const windowHeight = window.innerHeight;
+
+    function checkScroll() {
+      components.forEach((component) => {
+        const componentTop = component.getBoundingClientRect().top;
+        if (componentTop < windowHeight) {
+          component.classList.add("visible");
+        }
+      });
+    }
+
+    window.addEventListener("scroll", checkScroll);
+
+    // Limpia el evento al desmontar el componente
+    return () => {
+      window.removeEventListener("scroll", checkScroll);
+    };
+  }, []);
+
   return (
     <form
       action="https://formspree.io/f/mqkrlako"

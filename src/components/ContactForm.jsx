@@ -1,6 +1,42 @@
+"use client";
+
+import { useState, useEffect } from "react";
+
 const ContactForm = () => {
+  const [message, setMessage] = useState("");
+  const [showMessage, setShowMessage] = useState(false);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const data = new FormData(event.target);
+    const response = await fetch(event.target.action, {
+      method: "POST",
+      body: data,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    const result = await response.json();
+    if (!response.ok) {
+      setMessage(result.errors.map((error) => error.message).join(", "));
+    } else {
+      setMessage("Se ha enviado tu correo satisfactoriamente");
+      event.target.reset();
+      setShowMessage(true);
+      setTimeout(() => {
+        setShowMessage(false);
+      }, 3000);
+    }
+  };
+
   return (
-    <form method="POST" className="max-w-md mx-auto my-8">
+    <form
+      action="https://formspree.io/f/mqkrlako"
+      method="POST"
+      onSubmit={handleSubmit}
+      className="relative max-w-md mx-auto my-8"
+    >
       <p className="text-4xl lg:text-6xl font-light text-center my-10">
         Envia
         <br />
@@ -79,6 +115,13 @@ const ContactForm = () => {
       >
         Enviar
       </button>
+
+      {showMessage && (
+        <p className="absolute border border-gray-600 rounded p-4 top-0 bg-green-400/40 backdrop-blur-2xl">
+          {" "}
+          <span className="text-green-300">✓</span> {message}
+        </p>
+      )}
     </form>
   );
 };

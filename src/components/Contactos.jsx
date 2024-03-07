@@ -15,7 +15,7 @@ export default function BodyBuconero() {
     <>
       <section
         id="contacto"
-        className="grid grid-cols-3 lg:grid-cols-6 w-full gap-2 text-center"
+        className=" animate grid grid-cols-3 lg:grid-cols-6 w-full gap-2 text-center"
       >
         <Link
           href="https://www.instagram.com/di_corato_luthier/"
@@ -54,7 +54,7 @@ export default function BodyBuconero() {
           <Image src={Pua} alt="Icono del Email"></Image>
         </Link>
       </section>
-      <section className="w-full grid lg:grid-cols-4 my-2 gap-2" id="contactos">
+      <section className="animate w-full grid lg:grid-cols-4 my-2 gap-2" id="contactos">
         <figure className="flex flex-col align-middle justify-center p-4 lg:col-start-1 lg:col-end-5 bg-[#14181b] rounded-2xl w-full">
           <ContactForm />
         </figure>

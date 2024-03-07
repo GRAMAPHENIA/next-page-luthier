@@ -7,7 +7,7 @@ export default function Instrumentos() {
   return (
     <section
       id="modelos"
-      className="w-full grid lg:grid-cols-4 my-2 gap-2"
+      className="animate w-full grid lg:grid-cols-4 my-2 gap-2"
     >
       <figure className="flex flex-col align-middle justify-center p-4 lg:col-start-2 lg:col-end-5 bg-[#14181b] rounded-2xl w-full lg:hidden">
         <p className="text-3xl font-light font-sans text-[#7d8c9d] mb-5 sm:text-2xl lg:text-7xl p-6 lg:p-10">

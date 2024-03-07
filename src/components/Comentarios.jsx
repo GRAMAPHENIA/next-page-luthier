@@ -42,7 +42,7 @@ const Comentarios = () => {
 
   return (
     <>
-      <section className="w-full my-2 gap-2" id="comentarios">
+      <section className="animate w-full my-2 gap-2" id="comentarios">
         <figure className="flex flex-col align-middle justify-center px-8 py-8 bg-[#14181b] rounded-2xl w-full">
           <div className="mx-auto font-light text-amber-100">
             <Testimonios testimonio={testimoniosData} />

@@ -38,7 +38,7 @@ const sections = [
 const Footer = () => {
   return (
     <>
-      <footer className="grid grid-cols-1 md:grid-cols-4 bg-[#14181b] px-10 rounded-2xl mb-4">
+      <footer className="animate grid grid-cols-1 md:grid-cols-4 bg-[#14181b] px-10 rounded-2xl mb-4">
         <div className="md:col-span-1 md:text-center">
           <Image
             className="mx-auto"

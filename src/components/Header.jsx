@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import Modal from "@/components/Modal.jsx";
 
@@ -12,14 +13,16 @@ export default function Header() {
   return (
     <header className="grid grid-cols-4 bg-[#14181b] p-2 mt-2 rounded-full">
       <figure className="flex justify-start col-start-1 col-end-2">
-        <Image
-          className="ml-3"
-          src={LogoApellido}
-          alt="Logo de la marca con el apellido solamente"
-          width="auto"
-          height={40}
-          priority={true}
-        />
+        <Link href="/" className="mt-1">
+          <Image
+            className="ml-3"
+            src={LogoApellido}
+            alt="Logo de la marca con el apellido solamente"
+            width="auto"
+            height={40}
+            priority={true}
+          />
+        </Link>
       </figure>
       <Modal />
     </header>

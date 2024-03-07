@@ -135,16 +135,3 @@ h1 {
 }
 
 /* ANIMACIONES */
-
-.fade-in {
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-.visible {
-  opacity: 1;
-}
-
-.fade-out {
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}

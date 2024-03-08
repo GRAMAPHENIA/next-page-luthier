@@ -18,7 +18,7 @@ const sections = [
     title: "Servicios",
     links: [
       // { title: "Presupuestos", url: "/#formulario" },
-      { title: "Construccion", url: "/" },
+      { title: "Construccion", url: "/#contactos" },
       { title: "Reparacion", url: "/#reparaciones" },
     ],
   },
@@ -26,11 +26,17 @@ const sections = [
   {
     title: "Redes",
     links: [
-      { title: "WhatsApp", url: "/" },
-      { title: "Instagram", url: "/" },
-      { title: "Facebook", url: "/" },
-      { title: "Youtube", url: "/" },
-      { title: "Email", url: "/" },
+      {
+        title: "WhatsApp",
+        url: "https://wa.me/5491154637450",
+      },
+      {
+        title: "Instagram",
+        url: "https://www.instagram.com/di_corato_luthier/",
+      },
+      { title: "Facebook", url: "https://www.facebook.com/dicorato.luthier" },
+      { title: "Youtube", url: "https://www.youtube.com/@dicorato.luthier" },
+      { title: "Email", url: "mailto:dicoratoluthier@gmail.com" },
     ],
   },
 ];

@@ -36,7 +36,7 @@ export default function BodyBuconero() {
           <Image src={Youtube} alt="Icono de la red social Youtube"></Image>
         </Link>
         <Link
-          href="https://wa.me/+5491154637450"
+          href="https://wa.me/5491154637450"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#1a2024] hover:text-amber-100"
         >
           <Image src={Wsap} alt="Icono de la red social Whatsapp"></Image>

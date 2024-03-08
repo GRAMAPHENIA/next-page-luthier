@@ -28,7 +28,7 @@ export default function Reparaciones() {
           />
         </figure>
 
-        <figure className="animate bg-[#14181b] rounded-2xl col-span-2 flex justify-center align-middle p-4 lg:p-4">
+        <figure className="animate bg-[#14181b] rounded-2xl col-span-6 lg:col-span-2 p-4">
           <Image
             src={dos}
             alt="Imagen del taller de lutheria"
@@ -38,7 +38,7 @@ export default function Reparaciones() {
           />
         </figure>
 
-        <figure className="animate bg-[#14181b] rounded-2xl col-span-2 p-4">
+        <figure className="animate bg-[#14181b] rounded-2xl col-span-6 lg:col-span-2 p-4">
           <Image
             src={tres}
             alt="Imagen del taller de lutheria"
@@ -47,7 +47,7 @@ export default function Reparaciones() {
             className="rounded-xl"
           />
         </figure>
-        <figure className="animate bg-[#14181b] rounded-2xl col-span-2 p-4">
+        <figure className="animate bg-[#14181b] rounded-2xl col-span-6 lg:col-span-2 p-4">
           <Image
             src={cuatro}
             alt="Imagen del taller de lutheria"
@@ -77,7 +77,7 @@ export default function Reparaciones() {
             className="rounded-xl"
           />
         </figure>
-        <figure className="animate bg-[#14181b] rounded-2xl col-span-2 lg:flex justify-center align-middle p-4 hidden">
+        <figure className="animate bg-[#14181b] rounded-2xl col-span-2 lg:flex justify-center align-middle p-4 ">
           <Image
             src={siete}
             alt="Imagen del taller de lutheria"
@@ -86,7 +86,7 @@ export default function Reparaciones() {
             className="rounded-xl"
           />
         </figure>
-        <figure className="animate bg-[#14181b] rounded-2xl col-span-2 lg:flex justify-center align-middle p-4 hidden">
+        <figure className="animate bg-[#14181b] rounded-2xl col-span-6 lg:col-span-2 p-4">
           <Image
             src={ocho}
             alt="Imagen del taller de lutheria"

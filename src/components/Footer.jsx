@@ -82,6 +82,7 @@ const Footer = () => {
           <Link
             className="text-gray-400 hover:text-sky-400 font-light"
             href="https://www.conceptohexagono.com"
+            target="blank"
           >
             conceptohexagono<span className="text-sky-400">.</span>
           </Link>

@@ -20,30 +20,35 @@ export default function BodyBuconero() {
         <Link
           href="https://www.instagram.com/di_corato_luthier/"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#1a2024] hover:text-amber-100"
+          target="blank"
         >
           <Image src={Instagram} alt="Icono de la red social Instagram"></Image>
         </Link>
         <Link
           href="https://www.facebook.com/dicorato.luthier"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#1a2024] hover:text-amber-100"
+          target="blank"
         >
           <Image src={Facebook} alt="Icono de la red social Facebook"></Image>
         </Link>
         <Link
           href="https://www.youtube.com/@dicorato.luthier"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#1a2024] hover:text-amber-100"
+          target="blank"
         >
           <Image src={Youtube} alt="Icono de la red social Youtube"></Image>
         </Link>
         <Link
           href="https://wa.me/5491154637450"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#1a2024] hover:text-amber-100"
+          target="blank"
         >
           <Image src={Wsap} alt="Icono de la red social Whatsapp"></Image>
         </Link>
         <Link
           href="mailto:dicoratolutjier@gmail.com"
           className="flex justify-center p-2 bg-[#14181b] rounded-full hover:bg-[#1a2024] hover:text-amber-100"
+          target="blank"
         >
           <Image src={Email} alt="Icono del Email"></Image>
         </Link>

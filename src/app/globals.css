@@ -131,7 +131,7 @@ h1 {
 }
 ::-webkit-scrollbar-thumb {
   background-color: var(--hover-button);
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 /* ANIMACIONES */

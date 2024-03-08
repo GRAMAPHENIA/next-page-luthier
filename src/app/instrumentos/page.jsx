@@ -16,8 +16,8 @@ export const metadata = {
 export default function Buconero() {
   return (
     <>
-      <section className="grid my-2 grid-cols-1 lg:grid lg:grid-cols-2 gap-2">
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
+      <section className="grid my-2 grid-cols-1 lg:grid lg:grid-cols-2 gap-2 ">
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4 ">
           {/* <p className=" text-3xl text-gray-400 font-thin">Modelo</p> */}
           <Image
             className="m-auto"
@@ -28,7 +28,7 @@ export default function Buconero() {
             height={300}
           />
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
+        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:py-10 ">
           <Image
             priority={true}
             src={BuconeroHorz}
@@ -43,7 +43,7 @@ export default function Buconero() {
             detalles
           </Link>
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
+        <figure className="animate relative bg-[#14181b] rounded-2xl col-span-2 p-4 ">
           {/* <p className=" text-3xl text-gray-400 font-thin">Modelo</p> */}
           <Image
             className="m-auto"
@@ -54,7 +54,7 @@ export default function Buconero() {
             height={300}
           />
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
+        <figure className="animate relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
           <Image
             src={VellutoHorz}
             alt="Fotografía de una guitarra, modelo Velluto. Diseñada y fabricada por Esteban M. Di corato."
@@ -69,7 +69,7 @@ export default function Buconero() {
             detalles
           </Link>
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-4">
+        <figure className="animate relative bg-[#14181b] rounded-2xl col-span-2 p-4 ">
           <Image
             className="m-auto"
             priority={true}
@@ -79,7 +79,7 @@ export default function Buconero() {
             height={250}
           />
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
+        <figure className="animate relative bg-[#14181b] rounded-2xl col-span-2 p-10 lg:p-10">
           <Image
             src={EiraHorz}
             alt="Fotografía de una guitarra, modelo Eira. Diseñada y fabricada por Esteban M. Di corato."

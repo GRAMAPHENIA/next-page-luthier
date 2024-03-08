@@ -81,11 +81,11 @@ export default function Buconero() {
           />
         </figure>
 
-        <section className="col-span-8">
+        <section className="animate col-span-8">
           <ConectorMarcasBuconero />
         </section>
 
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-5 p-10 lg:p-10">
+        <figure className="animate relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-5 p-10 lg:p-10">
           <ol className="space-y-2 text-sm lg:text-base">
             {lista.map((item, index) => (
               <li key={index}>
@@ -97,7 +97,7 @@ export default function Buconero() {
             ))}
           </ol>
         </figure>
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-10 ">
+        <figure className="animate relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-10 ">
           <Image
             src={BuconeroCuerpo}
             alt="Logo de marca"
@@ -107,7 +107,7 @@ export default function Buconero() {
           />
         </figure>
       </section>
-      <section className="mb-2">
+      <section className="animate mb-2">
         <HeaderInstrumentos />
       </section>
     </>

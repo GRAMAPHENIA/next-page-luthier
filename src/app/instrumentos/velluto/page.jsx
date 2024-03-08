@@ -76,11 +76,11 @@ export default function velluto() {
             className="hidden lg:block"
           />
         </figure>
-        <section className="col-span-8">
-           <ConectorMarcasVelluto />
+        <section className="animate col-span-8">
+          <ConectorMarcasVelluto />
         </section>
-       
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-5 p-10 lg:p-10">
+
+        <figure className="animate relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-5 p-10 lg:p-10">
           <ol className="space-y-2 text-sm lg:text-base">
             {lista.map((item, index) => (
               <li key={index}>
@@ -93,7 +93,7 @@ export default function velluto() {
           </ol>
         </figure>
 
-        <figure className="relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-10 ">
+        <figure className="animate relative bg-[#14181b] rounded-2xl col-span-8 lg:col-span-3 p-10 lg:p-10 ">
           <Image
             src={BuconeroCuerpo}
             alt="croquis velluto numerado"
@@ -102,41 +102,8 @@ export default function velluto() {
             className="mx-auto h-[400px] w-auto lg:hover:scale-110 duration-200"
           />
         </figure>
-
-        {/* <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
-          <Image
-            src={Diliberto}
-            alt="croquis velluto numerado"
-            width={150}
-            height={150}
-          />
-        </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
-          <Image
-            src={Gotoh}
-            alt="croquis velluto numerado"
-            width={150}
-            height={150}
-          />
-        </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
-          <Image
-            src={Hosco}
-            alt="croquis velluto numerado"
-            width={150}
-            height={150}
-          />
-        </figure>
-        <figure className="relative flex justify-center bg-[#14181b] rounded-2xl col-span-8 lg:col-span-2">
-          <Image
-            src={Wilkinson}
-            alt="croquis velluto numerado"
-            width={150}
-            height={150}
-          />
-        </figure> */}
       </section>
-      <section className="mb-2">
+      <section className="animate mb-2">
         <HeaderInstrumentos />
       </section>
     </>

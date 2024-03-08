@@ -15,7 +15,7 @@ export default function Taller() {
   return (
     <>
       <section className="grid my-2 grid-cols-4 row-span-4 lg:grid lg:grid-cols-6 gap-2 ">
-        <figure className="bg-[#14181b] rounded-2xl col-span-4 p-4 lg:p-4">
+        <figure className="animate bg-[#14181b] rounded-2xl col-span-4 p-4 lg:p-4">
           <Image
             src={tallerDos}
             alt="Imagen del taller de lutheria"
@@ -25,7 +25,7 @@ export default function Taller() {
           />
         </figure>
 
-        <figure className="bg-[#14181b] rounded-2xl col-span-2 flex justify-center align-middle p-4 lg:p-4">
+        <figure className="animate bg-[#14181b] rounded-2xl col-span-2 flex justify-center align-middle p-4 lg:p-4">
           <Image
             src={tallerTres}
             alt="Imagen del taller de lutheria"
@@ -35,7 +35,7 @@ export default function Taller() {
           />
         </figure>
 
-        <figure className="bg-[#14181b] rounded-2xl col-span-2 p-4 lg:p-4">
+        <figure className="animate bg-[#14181b] rounded-2xl col-span-2 p-4 lg:p-4">
           <Image
             src={tallerCuatro}
             alt="Imagen del taller de lutheria"
@@ -44,7 +44,7 @@ export default function Taller() {
             className="rounded-xl"
           />
         </figure>
-        <figure className="bg-[#14181b] rounded-2xl col-span-2 p-4 lg:p-4">
+        <figure className="animate bg-[#14181b] rounded-2xl col-span-2 p-4 lg:p-4">
           <Image
             src={tallerCinco}
             alt="Imagen del taller de lutheria"
@@ -53,7 +53,7 @@ export default function Taller() {
             className="rounded-xl"
           />
         </figure>
-        <figure className="bg-[#14181b] rounded-2xl col-span-2 p-4 lg:p-4">
+        <figure className="animate bg-[#14181b] rounded-2xl col-span-2 p-4 lg:p-4">
           <Image
             src={tallerSeis}
             alt="Imagen del taller de lutheria"
@@ -62,7 +62,7 @@ export default function Taller() {
             className="rounded-xl"
           />
         </figure>
-        <figure className="bg-[#14181b] rounded-2xl col-span-2 lg:flex justify-center align-middle p-4 lg:p-4 hidden">
+        <figure className="animate bg-[#14181b] rounded-2xl col-span-2 lg:flex justify-center align-middle p-4 lg:p-4 hidden">
           <Image
             src={tallerSiete}
             alt="Imagen del taller de lutheria"
@@ -71,7 +71,7 @@ export default function Taller() {
             className="rounded-xl"
           />
         </figure>
-        <figure className="bg-[#14181b] rounded-2xl col-span-4 p-4 lg:p-4">
+        <figure className="animate bg-[#14181b] rounded-2xl col-span-4 p-4 lg:p-4">
           <Image
             src={tallerOcho}
             alt="Imagen del taller de lutheria"
